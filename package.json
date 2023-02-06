@@ -1,0 +1,26 @@
+{
+  "name": "@frameless/demodam",
+  "version": "1.0.0",
+  "description": "Website voor demodam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frameless/demodam.git"
+  },
+  "author": "Community for NL Design System",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frameless/demodam/issues"
+  },
+  "homepage": "https://github.com/frameless/demodam#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "2.8.3"
+  }
+}
