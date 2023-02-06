@@ -2,9 +2,13 @@
   "name": "@frameless/demodam",
   "version": "1.0.0",
   "description": "Website voor demodam",
-  "main": "index.js",
+  "main": "gatsby-config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
@@ -22,5 +26,14 @@
     "eslint": "^8.33.0",
     "eslint-plugin-react": "^7.32.2",
     "prettier": "2.8.3"
+  },
+  
+  "dependencies": {
+    "gatsby": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
+  
+  
+
 }
