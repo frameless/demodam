@@ -4,6 +4,8 @@
   "description": "Website voor demodam",
   "main": "gatsby-config.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix .",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -26,7 +28,8 @@
     "eslint": "8.33.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-react": "7.32.2",
-    "prettier": "2.8.3"
+    "prettier": "2.8.3",
+    "stylelint-order": "5.0.0"
   },
   "dependencies": {
     "gatsby": "5.5.0",
