@@ -1,11 +1,11 @@
 import * as React from "react"
-import Header from "../components/header"
+import Header from "../components/header.js"
 
 
 const IndexPage = () => {
   return (
     <Header>
-      bla
+        
     </Header>
     // <main >
     //   <h1>Hello world!</h1>
