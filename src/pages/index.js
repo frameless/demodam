@@ -1,11 +1,16 @@
 import * as React from "react"
+import Header from "../components/header"
+
 
 const IndexPage = () => {
   return (
-    <main >
-      <h1>Hello world!</h1>
+    <Header>
+      bla
+    </Header>
+    // <main >
+    //   <h1>Hello world!</h1>
       
-    </main>
+    // </main>
   )
 }
 
