@@ -1,3 +1,4 @@
+/* eslint-env node */
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
@@ -7,4 +8,4 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [],
-}
+};
