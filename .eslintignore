@@ -6,8 +6,10 @@ SearchBar
 *.min.js
 
 # Ignore generated files
+public
 dist
 build
 tmp
 .docusaurus
 .angular
+.cache
