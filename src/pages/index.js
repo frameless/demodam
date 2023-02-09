@@ -1,20 +1,18 @@
 import { Alert, Document, Heading1, Paragraph } from "@utrecht/component-library-react/dist/css-module";
 import * as React from "react";
 import Header from "../components/header.js";
+import Footer from "../components/Footer.js";
+import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
 
 const IndexPage = () => {
   return (
-    <>
-      <Header></Header>
-      <main>
-        <h1>Hello world!</h1>
-      </main>
-      <Document></Document>
-      <Heading1></Heading1>
-      <Alert></Alert>
-      <Paragraph></Paragraph>
-    </>
+    <div className="page-container">
+      <div className="content-wrap">
+        <Header />
+      </div>
+      <Footer />
+    </div>
   );
 };
 
