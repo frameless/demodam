@@ -1,12 +1,20 @@
 import * as React from "react";
+import "./logo.jsx";
 import "./header.style.css";
+import Logo from "./logo.jsx";
 
 const Header = () => (
   <header lang="nl">
     <nav>
       <ul>
         <li>
-          <a href="#">logo website</a>
+          <a href="#">
+            <Logo>
+              <svg viewBox="0 0 1000 1000">
+                <rect fill="currentColor" height="1000" width="1000" x="0" y="0" />
+              </svg>
+            </Logo>
+          </a>
         </li>
         <li>
           <a href="#">home</a>
