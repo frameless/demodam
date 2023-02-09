@@ -4,7 +4,9 @@
   "description": "Website voor demodam",
   "main": "gatsby-config.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "npm-run-all lint:** ",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --check .",
     "lint-fix": "eslint --fix .",
     "develop": "gatsby develop",
     "start": "gatsby develop",
