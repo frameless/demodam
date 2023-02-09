@@ -1,7 +1,6 @@
-import { Alert, Document, Heading1, Paragraph } from "@utrecht/component-library-react/dist/css-module";
 import * as React from "react";
-import Header from "../components/header.js";
 import Footer from "../components/Footer.js";
+import Header from "../components/header.js";
 import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
 
