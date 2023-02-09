@@ -2,9 +2,12 @@ import * as React from "react";
 import "./header.style.css";
 
 const Header = () => (
-  <header>
+  <header lang="nl">
     <nav>
       <ul>
+        <li>
+          <a href="#">logo website</a>
+        </li>
         <li>
           <a href="#">home</a>
         </li>
@@ -22,6 +25,22 @@ const Header = () => (
         </li>
         <li>
           <a href="#">contact</a>
+        </li>
+        <li>
+          <a href="#">github logo</a>
+        </li>
+        <li>
+          <a href="#">slack logo</a>
+        </li>
+        <li>
+          <ul>
+            <li>
+              <a href="#">NL</a>
+            </li>
+            <li>
+              <a href="#">EN</a>
+            </li>
+          </ul>
         </li>
       </ul>
     </nav>
