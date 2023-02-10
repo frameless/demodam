@@ -1,3 +1,4 @@
+import { Heading2 } from "@utrecht/component-library-react";
 import * as React from "react";
 
 const Content = () => (
@@ -15,7 +16,7 @@ const Content = () => (
         vanuit zowel de overheid als het bedrijfsleven. De Foundation for Public Code ziet erop toe dat alle partijen
         gelijkwaardig zijn. Iedereen is welkom om bij te dragen.
       </p>
-      <h2>Demodam.nl is tijdelijk niet beschikbaar.</h2>
+      <Heading2>Demodam.nl is tijdelijk niet beschikbaar.</Heading2>
       <p>
         Wegens de log4j bug hebben we Demodam.nl tijdelijk offline gehaald. Gezien er ook een migratie op handen staat,
         zullen we dit hierin meenemen. Vanaf eind januari 2022 komt Demodam.nl weer in de lucht. Onze excuses voor het
@@ -37,7 +38,7 @@ const Content = () => (
         <img />
       </div>
       <div>
-        <h2></h2>
+        <Heading2></Heading2>
       </div>
     </section>
     <section></section>
