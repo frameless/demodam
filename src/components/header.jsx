@@ -1,10 +1,14 @@
 import * as React from "react";
 import "./header.style.css";
-import Logo from "./icons.jsx";
+import Icons from "./icons.jsx";
+import DemodamLogo from "./demodamlogo.jsx";
 
 const Header = () => (
   <header lang="nl">
     <nav>
+      <a href="#">
+        <DemodamLogo></DemodamLogo>
+      </a>
       <ul>
         <li>
           <a href="#">logo websites</a>
