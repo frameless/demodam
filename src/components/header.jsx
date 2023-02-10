@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./logo.jsx";
 import "./header.style.css";
 import Logo from "./logo.jsx";
 
@@ -8,13 +7,7 @@ const Header = () => (
     <nav>
       <ul>
         <li>
-          <a href="#">
-            <Logo>
-              <svg viewBox="0 0 1000 1000">
-                <rect fill="currentColor" height="1000" width="1000" x="0" y="0" />
-              </svg>
-            </Logo>
-          </a>
+          <a href="#">logo websites</a>
         </li>
         <li>
           <a href="#">home</a>
@@ -34,9 +27,7 @@ const Header = () => (
         <li>
           <a href="#">contact</a>
         </li>
-        <li>
-          <a href="#">github logo</a>
-        </li>
+        <Logo></Logo>
         <li>
           <a href="#">slack logo</a>
         </li>
