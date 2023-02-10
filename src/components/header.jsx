@@ -29,9 +29,6 @@ const Header = () => (
         </li>
         <Logo></Logo>
         <li>
-          <a href="#">slack logo</a>
-        </li>
-        <li>
           <ul>
             <li>
               <a href="#">NL</a>
