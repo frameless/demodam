@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./header.style.css";
-import Logo from "./logo.jsx";
+import Logo from "./icons.jsx";
 
 const Header = () => (
   <header lang="nl">
@@ -27,7 +27,7 @@ const Header = () => (
         <li>
           <a href="#">contact</a>
         </li>
-        <Logo></Logo>
+        <Icons></Icons>
         <li>
           <ul>
             <li>
