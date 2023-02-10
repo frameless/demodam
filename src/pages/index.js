@@ -1,7 +1,8 @@
 import * as React from "react";
 import Footer from "../components/Footer.js";
-import Header from "../components/header.jsx";
 import Hero from "../components/Hero.js";
+import Content from "../components/content.jsx";
+import Header from "../components/header.jsx";
 import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
 
@@ -11,6 +12,7 @@ const IndexPage = () => {
       <div className="content-wrap">
         <Header />
         <Hero />
+        <Content />
       </div>
 
       <Footer />
