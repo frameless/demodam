@@ -32,7 +32,14 @@ const Content = () => (
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       ></iframe>
     </section>
-    <section></section>
+    <section>
+      <div>
+        <img />
+      </div>
+      <div>
+        <h2></h2>
+      </div>
+    </section>
     <section></section>
     <section></section>
     <section></section>
