@@ -35,10 +35,20 @@ const Content = () => (
       ></iframe>
     </div>
     <div>
-        <img />
+      <div>
+        <Image
+          alt="Illustratie van een laptop die een encrypte verificatie stuurd naar een telefoon en een website die de verificatie code vraagt met een vinkje"
+          src="#"
+        />
       </div>
       <div>
-        <Heading2></Heading2>
+        <Heading2>Op Demodam.nl laten we zien wat er beschikbaar is</Heading2>
+        <p>
+          op
+          <a href="#">Demodam.nl</a>
+          kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het maakt tastbaar wat je met Common
+          Ground kunt.
+        </p>
       </div>
     </div>
     <div></div>
