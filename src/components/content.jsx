@@ -1,9 +1,10 @@
 import { Heading2 } from "@utrecht/component-library-react";
+import { Image } from "@utrecht/component-library-react";
 import * as React from "react";
 
 const Content = () => (
   <div>
-    <section>
+    <div>
       <p>
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten. Op Demodam.nl kun je straks zien welke Common Ground componenten (bouwstenen)
@@ -22,8 +23,8 @@ const Content = () => (
         zullen we dit hierin meenemen. Vanaf eind januari 2022 komt Demodam.nl weer in de lucht. Onze excuses voor het
         ongemak.
       </p>
-    </section>
-    <section>
+    </div>
+    <div>
       <iframe
         width="560"
         height="315"
@@ -32,18 +33,17 @@ const Content = () => (
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       ></iframe>
-    </section>
-    <section>
-      <div>
+    </div>
+    <div>
         <img />
       </div>
       <div>
         <Heading2></Heading2>
       </div>
-    </section>
-    <section></section>
-    <section></section>
-    <section></section>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
   </div>
 );
 export default Content;
