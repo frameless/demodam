@@ -1,8 +1,7 @@
 import * as React from "react";
 import "./header.style.css";
-import Icons from "./icons.jsx";
 import DemodamLogo from "./demodamlogo.jsx";
-
+import Icons from "./icons.jsx";
 const Header = () => (
   <header lang="nl">
     <nav>
