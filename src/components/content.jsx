@@ -1,6 +1,10 @@
 import { Heading2 } from "@utrecht/component-library-react";
 import { Image } from "@utrecht/component-library-react";
 import * as React from "react";
+import intergrationimage from "../images/integratie-signalen.svg";
+import persondataimage from "../images/person-data.svg";
+import persondocumentimage from "../images/person-document.svg";
+import womanchecklistimage from "../images/women-checklist.svg";
 
 const Content = () => (
   <div>
@@ -38,7 +42,7 @@ const Content = () => (
       <div>
         <Image
           alt="Illustratie van een laptop die een encrypte verificatie stuurd naar een telefoon en een website die de verificatie code vraagt met een vinkje"
-          src="images/integratie-signalen.svg"
+          src={intergrationimage}
         />
       </div>
       <div>
@@ -64,12 +68,12 @@ const Content = () => (
         </p>
       </div>
       <div>
-        <Image />
+        <Image alt="illustratie van een persoon die een checklijst afvinkt" src={womanchecklistimage} />
       </div>
     </div>
     <div>
       <div>
-        <Image />
+        <Image alt="illustratie van een persoon die een document bekijkt" src={persondocumentimage} />
       </div>
       <div>
         <Heading2>Demodam helpt om Common Ground te verbeteren.</Heading2>
@@ -97,7 +101,7 @@ const Content = () => (
         </p>
       </div>
       <div>
-        <Image />
+        <Image alt="illustratie van persoon met scherm acht de persoon met data" src={persondataimage} />
       </div>
     </div>
   </div>
