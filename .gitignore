@@ -105,3 +105,6 @@ public
 
 # idea editor file
 .idea/
+
+# Ignore OS files
+.DS_Store
