@@ -1,0 +1,51 @@
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 100%;
+  left: 50%;
+  background: white;
+  z-index: -1;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  /* background-color: gray; */
+}
+
+.textbox {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.right-container {
+  left: -9%;
+}
+
+.left-container {
+  left: 50%;
+}
+
+.container img {
+  position: absolute;
+  border-radius: 50%;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+}
+
+.left-container img {
+  left: -20px;
+}
