@@ -1,11 +1,15 @@
-.headernav {
+.headerNav {
   display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
 }
-.headerlist {
+.headerList {
   list-style-type: none;
   display: flex;
-  align-items: center;
-  margin: auto;
+}
+.headerLogo {
+  display: flex;
+  justify-content: end;
 }
 li {
   display: inline-block;
