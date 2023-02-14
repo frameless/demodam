@@ -1,11 +1,10 @@
-.headnav {
+.headernav {
   display: flex;
-  justify-content: center;
-  align-content: center;
 }
-ul {
+.headerlist {
   list-style-type: none;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin: auto;
 }
 li {
