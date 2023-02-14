@@ -12,11 +12,6 @@ const Header = () => (
           </a>
         </li>
         <li>
-          <a href="#" class="logo">
-            logo websites
-          </a>
-        </li>
-        <li>
           <a href="#">home</a>
         </li>
         <li>
