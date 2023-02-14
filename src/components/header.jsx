@@ -3,14 +3,16 @@ import "/styles/header.style.css";
 import DemodamLogo from "./demodamlogo.jsx";
 import Icons from "./icons.jsx";
 const Header = () => (
-  <header lang="nl">
-    <nav>
+  <header lang="nl" class="header">
+    <nav class="headnav">
       <a href="#">
         <DemodamLogo></DemodamLogo>
       </a>
       <ul>
         <li>
-          <a href="#">logo websites</a>
+          <a href="#" class="logo">
+            logo websites
+          </a>
         </li>
         <li>
           <a href="#">home</a>

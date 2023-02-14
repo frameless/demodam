@@ -1,4 +1,19 @@
-li {
-  text-decoration: none;
+.headnav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+ul {
   list-style-type: none;
+  display: inline-block;
+  margin: auto;
+}
+li {
+  display: inline-block;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  margin: 0.5rem;
+  color: black;
 }
