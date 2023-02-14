@@ -8,7 +8,7 @@ import womanchecklistimage from "../images/women-checklist.svg";
 
 const Content = () => (
   <div>
-    <div>
+    <section>
       <p>
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten. Op Demodam.nl kun je straks zien welke Common Ground componenten (bouwstenen)
@@ -21,13 +21,15 @@ const Content = () => (
         vanuit zowel de overheid als het bedrijfsleven. De Foundation for Public Code ziet erop toe dat alle partijen
         gelijkwaardig zijn. Iedereen is welkom om bij te dragen.
       </p>
-      <Heading2>Demodam.nl is tijdelijk niet beschikbaar.</Heading2>
+      <p>
+        <strong>Demodam.nl is tijdelijk niet beschikbaar.</strong>
+      </p>
       <p>
         Wegens de log4j bug hebben we Demodam.nl tijdelijk offline gehaald. Gezien er ook een migratie op handen staat,
         zullen we dit hierin meenemen. Vanaf eind januari 2022 komt Demodam.nl weer in de lucht. Onze excuses voor het
         ongemak.
       </p>
-    </div>
+    </section>
     <div>
       <iframe
         width="560"
@@ -45,7 +47,7 @@ const Content = () => (
           src={intergrationimage}
         />
       </div>
-      <div>
+      <section>
         <Heading2>Op Demodam.nl laten we zien wat er beschikbaar is</Heading2>
         <p>
           op
@@ -53,10 +55,10 @@ const Content = () => (
           kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het maakt tastbaar wat je met Common
           Ground kunt.
         </p>
-      </div>
+      </section>
     </div>
     <div>
-      <div>
+      <section>
         <Heading2>Demodam is een omgeving voor samenwerken</Heading2>
         <p>
           Overheden en hun leveranciers kunnen elkaar makkelijker vinden. Het helpt ons om onze werkwijzen op elkaar af
@@ -66,7 +68,7 @@ const Content = () => (
           gebruikerservaring krijgt, ook al bestaat een dienst uit componenten die door verschillende leveranciers
           gebouwd zijn.
         </p>
-      </div>
+      </section>
       <div>
         <Image alt="illustratie van een persoon die een checklijst afvinkt" src={womanchecklistimage} />
       </div>
@@ -75,7 +77,7 @@ const Content = () => (
       <div>
         <Image alt="illustratie van een persoon die een document bekijkt" src={persondocumentimage} />
       </div>
-      <div>
+      <section>
         <Heading2>Demodam helpt om Common Ground te verbeteren.</Heading2>
         <p>
           We stellen samen vast wat de minimale eisen aan componenten zijn op bijvoorbeeld het gebied van beveiliging,
@@ -86,10 +88,10 @@ const Content = () => (
           het achterliggende Common Ground ecosysteem. Met name gebruiksvriendelijkheid en veiligheid hebben daarbij
           onze bijzondere aandacht.
         </p>
-      </div>
+      </section>
     </div>
     <div>
-      <div>
+      <section>
         <Heading2>Met Demodam kun je innoveren</Heading2>
         <p>
           Juist doordat er straks al een stevige basis staat, kun je daar makkelijk op voortborduren. Ter illustratie:
@@ -99,7 +101,7 @@ const Content = () => (
           heel lastig, maar met Demodam staan er straks al een zaaksysteem, een BRP systeem en NLX voor je klaar, zodat
           je gelijk een vliegende start kunt maken.
         </p>
-      </div>
+      </section>
       <div>
         <Image alt="illustratie van persoon met scherm acht de persoon met data" src={persondataimage} />
       </div>
