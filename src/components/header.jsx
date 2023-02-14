@@ -9,7 +9,7 @@ const Header = () => (
       <a href="#" aria-label="Homepage">
         <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
       </a>
-      <ul>
+      <ul className="headerlist">
         <li>
           <a href="#" class="logo">
             logo websites
