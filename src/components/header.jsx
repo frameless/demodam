@@ -11,32 +11,32 @@ const Header = () => (
       </a>
       <ul class="headerList">
         <li class="nav-item">
-          <a href="#" class="nav-item">
+          <a href="#" class="nav-link">
             home
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item">
+          <a href="#" class="nav-link">
             sluit je aan
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item">
+          <a href="#" class="nav-link">
             hackatons
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item">
+          <a href="#" class="nav-link">
             organisaties
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item">
+          <a href="#" class="nav-link">
             governance
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item">
+          <a href="#" class="nav-link">
             contact
           </a>
         </li>
@@ -44,12 +44,12 @@ const Header = () => (
         <li class="nav-item">
           <ul>
             <li class="nav-item">
-              <a href="#" class="nav-item">
+              <a href="#" class="nav-link">
                 NL
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-item">
+              <a href="#" class="nav-link">
                 EN
               </a>
             </li>
