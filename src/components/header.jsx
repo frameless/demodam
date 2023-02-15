@@ -4,12 +4,12 @@ import DemodamLogo from "./demodamlogo.jsx";
 import Icons from "./icons.jsx";
 const Header = () => (
   <header class="header">
-    <nav class="headnav">
+    <nav class="headerNav">
       {/* TODO: don't make this a link on the homepage itself */}
-      <a href="#" aria-label="Homepage">
+      <a href="#" aria-label="Homepage" class="headerLogo">
         <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
       </a>
-      <ul className="headerlist">
+      <ul class="headerList">
         <li>
           <a href="#">home</a>
         </li>
