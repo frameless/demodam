@@ -26,6 +26,7 @@ export default IndexPage;
 export const Head = () => (
   <>
     <html lang="nl" dir="ltr" />
-    <title>Home Page</title>
+    <meta charset="utf-8" />
+    <title>Home Page — Demodam</title>
   </>
 );
