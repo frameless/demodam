@@ -13,14 +13,14 @@ const IndexPage = () => {
     <>
       <SkipLink href="#main">Naar de inhoud</SkipLink>
       <div className="page-container">
+        <Header />
+        <Hero />
         <div className="content-wrap">
-          <Header />
           <main id="main">
-            <Hero />
             <Content />
+            <Timeline />
           </main>
         </div>
-        <Timeline />
         <Footer />
       </div>
     </>
