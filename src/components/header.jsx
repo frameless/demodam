@@ -10,36 +10,57 @@ const Header = () => (
         <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
       </a>
       <ul class="headerList">
-        <li>
-          <a href="#">home</a>
+        <li class="nav-item">
+          <a href="#" class="nav-item">
+            home
+          </a>
         </li>
-        <li>
-          <a href="#">sluit je aan</a>
+        <li class="nav-item">
+          <a href="#" class="nav-item">
+            sluit je aan
+          </a>
         </li>
-        <li>
-          <a href="#">hackatons</a>
+        <li class="nav-item">
+          <a href="#" class="nav-item">
+            hackatons
+          </a>
         </li>
-        <li>
-          <a href="#">organisaties</a>
+        <li class="nav-item">
+          <a href="#" class="nav-item">
+            organisaties
+          </a>
         </li>
-        <li>
-          <a href="#">governance</a>
+        <li class="nav-item">
+          <a href="#" class="nav-item">
+            governance
+          </a>
         </li>
-        <li>
-          <a href="#">contact</a>
+        <li class="nav-item">
+          <a href="#" class="nav-item">
+            contact
+          </a>
         </li>
         <Icons></Icons>
-        <li>
+        <li class="nav-item">
           <ul>
-            <li>
-              <a href="#">NL</a>
+            <li class="nav-item">
+              <a href="#" class="nav-item">
+                NL
+              </a>
             </li>
-            <li>
-              <a href="#">EN</a>
+            <li class="nav-item">
+              <a href="#" class="nav-item">
+                EN
+              </a>
             </li>
           </ul>
         </li>
       </ul>
+      <div class="nav-burger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
   </header>
 );
