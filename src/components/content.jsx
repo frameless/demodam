@@ -10,7 +10,7 @@ import "./content.css";
 const Content = () => (
   <div>
     <section>
-      <h2 class="sr-only">Introductie</h2>
+      <heading2 class="sr-only">Introductie</heading2>
       <p>
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten. Op Demodam.nl kun je straks zien welke Common Ground componenten (bouwstenen)
@@ -25,7 +25,7 @@ const Content = () => (
       </p>
     </section>
     <section>
-      <h2>Demodam.nl is tijdelijk niet beschikbaar.</h2>
+      <heading2>Demodam.nl is tijdelijk niet beschikbaar.</heading2>
       <p>
         Wegens de log4j bug hebben we Demodam.nl tijdelijk offline gehaald. Gezien er ook een migratie op handen staat,
         zullen we dit hierin meenemen. Vanaf eind januari 2022 komt Demodam.nl weer in de lucht. Onze excuses voor het
