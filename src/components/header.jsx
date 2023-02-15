@@ -3,7 +3,7 @@ import "./header.style.css";
 import DemodamLogo from "./demodamlogo.jsx";
 import Icons from "./icons.jsx";
 const Header = () => (
-  <header lang="nl">
+  <header>
     <nav>
       <a href="#">
         <DemodamLogo></DemodamLogo>
