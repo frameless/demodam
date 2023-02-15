@@ -5,10 +5,12 @@ import intergrationimage from "../images/integratie-signalen.svg";
 import persondataimage from "../images/person-data.svg";
 import persondocumentimage from "../images/person-document.svg";
 import womanchecklistimage from "../images/women-checklist.svg";
+import "./content.css";
 
 const Content = () => (
   <div>
     <section>
+      <h2 class="sr-only">Introductie</h2>
       <p>
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten. Op Demodam.nl kun je straks zien welke Common Ground componenten (bouwstenen)
@@ -21,9 +23,9 @@ const Content = () => (
         vanuit zowel de overheid als het bedrijfsleven. De Foundation for Public Code ziet erop toe dat alle partijen
         gelijkwaardig zijn. Iedereen is welkom om bij te dragen.
       </p>
-      <p>
-        <strong>Demodam.nl is tijdelijk niet beschikbaar.</strong>
-      </p>
+    </section>
+    <section>
+      <h2>Demodam.nl is tijdelijk niet beschikbaar.</h2>
       <p>
         Wegens de log4j bug hebben we Demodam.nl tijdelijk offline gehaald. Gezien er ook een migratie op handen staat,
         zullen we dit hierin meenemen. Vanaf eind januari 2022 komt Demodam.nl weer in de lucht. Onze excuses voor het
@@ -31,14 +33,17 @@ const Content = () => (
       </p>
     </section>
     <div>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/jTK-sbee2qM"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      ></iframe>
+      <figure>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/jTK-sbee2qM"
+          title="Demodam kickoff op YouTube"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <figcaption class="sr-only">Opname Kickoff 31 mei 2021</figcaption>
+      </figure>
     </div>
     <div>
       <div>
@@ -50,10 +55,8 @@ const Content = () => (
       <section>
         <Heading2>Op Demodam.nl laten we zien wat er beschikbaar is</Heading2>
         <p>
-          op
-          <a href="#">Demodam.nl</a>
-          kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het maakt tastbaar wat je met Common
-          Ground kunt.
+          op <a href="#">Demodam.nl</a> kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het maakt
+          tastbaar wat je met Common Ground kunt.
         </p>
       </section>
     </div>
@@ -68,15 +71,12 @@ const Content = () => (
           gebruikerservaring krijgt, ook al bestaat een dienst uit componenten die door verschillende leveranciers
           gebouwd zijn.
         </p>
+        <p>
+          <Image alt="illustratie van een persoon die een checklijst afvinkt" src={womanchecklistimage} />
+        </p>
       </section>
-      <div>
-        <Image alt="illustratie van een persoon die een checklijst afvinkt" src={womanchecklistimage} />
-      </div>
     </div>
     <div>
-      <div>
-        <Image alt="illustratie van een persoon die een document bekijkt" src={persondocumentimage} />
-      </div>
       <section>
         <Heading2>Demodam helpt om Common Ground te verbeteren.</Heading2>
         <p>
@@ -87,6 +87,9 @@ const Content = () => (
           daarbij blind kunnen vertrouwen op de kwaliteit van de componenten. Daarmee verbetert Demodam de kwaliteit van
           het achterliggende Common Ground ecosysteem. Met name gebruiksvriendelijkheid en veiligheid hebben daarbij
           onze bijzondere aandacht.
+        </p>
+        <p>
+          <Image alt="illustratie van een persoon die een document bekijkt" src={persondocumentimage} />
         </p>
       </section>
     </div>
@@ -101,10 +104,10 @@ const Content = () => (
           heel lastig, maar met Demodam staan er straks al een zaaksysteem, een BRP systeem en NLX voor je klaar, zodat
           je gelijk een vliegende start kunt maken.
         </p>
+        <p>
+          <Image alt="illustratie van persoon met scherm acht de persoon met data" src={persondataimage} />
+        </p>
       </section>
-      <div>
-        <Image alt="illustratie van persoon met scherm acht de persoon met data" src={persondataimage} />
-      </div>
     </div>
   </div>
 );
