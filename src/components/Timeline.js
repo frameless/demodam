@@ -3,46 +3,60 @@ import "./timeline.css";
 
 const Timeline = () => {
   return (
-    <div className="timeline">
+    <section className="timeline">
+      <h2>Tijdlijn</h2>
       <div className="container right-container">
-        <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
-        <div className="textbox">
-          <small>Juli 2021</small>
-          <h2>Innovatiesubsidie toegekend</h2>
+        <section className="textbox">
+          <hgroup>
+            <h3>Innovatiesubsidie toegekend</h3>
+            <p>Juli 2021</p>
+          </hgroup>
           <p>
             Het ministerie van Binnenlandse Zaken en Koninkrijksrelaties heeft Demodam een subsidie van 150.000 euro
             toegekend.
+          </p>
+          <p>
+            {" "}
+            <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
+          </p>
+        </section>
+      </div>
+
+      <div className="container left-container">
+        <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
+        <section className="textbox">
+          <small>5 Juli tot 9 Juli 2021</small>
+          <h3>Eerste demodam hackathon</h3>
+          <p>Samen werken aan een commonground etalage</p>
+        </section>
+      </div>
+
+      <div className="container right-container">
+        <div className="textbox">
+          <hgroup>
+            <h3>Tweede demodam hackathon</h3>
+            <p>24 Juni 2021 13:00</p>
+          </hgroup>
+          <p>Onboarding en planning</p>
+          <p>
+            <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
           </p>
         </div>
       </div>
 
       <div className="container left-container">
-        <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
-        <div className="textbox">
-          <small>5 Juli tot 9 Juli 2021</small>
-          <h2>Demodam hackathon</h2>
-          <p>Samen werken aan een commonground etalage</p>
-        </div>
-      </div>
-
-      <div className="container right-container">
-        <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
-        <div className="textbox">
-          <small>24 Juni 2021 13:00</small>
-          <h2>Demodam hackathon</h2>
-          <p>Onboarding en planning</p>
-        </div>
-      </div>
-
-      <div className="container left-container">
-        <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
-        <div className="textbox">
-          <small>Juli 2021</small>
-          <h2>Kick-off Demodam</h2>
+        <section className="textbox">
+          <hgroup>
+            <h2>Kick-off Demodam</h2>
+            <p>Juli 2021</p>
+          </hgroup>
           <p>Lancering van Demodam</p>
-        </div>
+          <p>
+            <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
+          </p>
+        </section>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,8 +4,10 @@ import "./hero.css";
 const Hero = () => {
   return (
     <div className="herotext">
-      <h1>Demodam</h1>
-      <h5>Een digitale gemeente gebouwd op open source commonground componenten</h5>
+      <hgroup>
+        <h1>Demodam</h1>
+        <p>Een digitale gemeente gebouwd op open source commonground componenten</p>
+      </hgroup>
       <p>
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten.
@@ -18,7 +20,14 @@ const Hero = () => {
           Lees hier meer over Demodam
         </a>
       </p>
-      <img src={require("./hero.png").default} width="400" className="" alt="a" />
+      <p>
+        <img
+          src={require("./hero.png").default}
+          width="400"
+          className=""
+          alt="artistieke illustratie van vrouw die naar huizen en een boom kijkt"
+        />
+      </p>
     </div>
   );
 };
