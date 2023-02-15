@@ -1,3 +1,4 @@
+import { SkipLink } from "@utrecht/component-library-react/dist/css-module";
 import * as React from "react";
 import Footer from "../components/Footer.js";
 import Hero from "../components/Hero.js";
@@ -9,15 +10,20 @@ import "@utrecht/design-tokens/dist/index.css";
 
 const IndexPage = () => {
   return (
-    <div className="page-container">
-      <div className="content-wrap">
-        <Header />
-        <Hero />
-        <Content />
-        <Timeline />
+    <>
+      <SkipLink href="#main">Naar de inhoud</SkipLink>
+      <div className="page-container">
+        <div className="content-wrap">
+          <Header />
+          <main id="main">
+            <Hero />
+            <Content />
+          </main>
+          <Timeline />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 };
 
