@@ -23,4 +23,9 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <>
+    <html lang="nl" dir="ltr" />
+    <title>Home Page</title>
+  </>
+);
