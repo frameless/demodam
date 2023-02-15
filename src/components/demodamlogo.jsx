@@ -1,15 +1,8 @@
 import React from "react";
 
-const DemodamLogo = () => (
-  <svg
-    //width="133.7695"
-    //height="119.47929"
-    height="75"
-    viewBox="0 0 133.7695 119.47929"
-    //enable-background="new 0 0 841.89 595.276"
-    //ViewBox="0 0 50 50" width="50"
-    //height="50"
-  >
+const DemodamLogo = ({ ...props }) => (
+  <svg height="75" viewBox="0 0 133.7695 119.47929" {...props}>
+    <title>Logo Demodam</title>
     <g id="g62" transform="translate(-225.389,-199.71321)">
       <path
         fill="#f29492"
