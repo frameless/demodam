@@ -17,13 +17,13 @@ const Timeline = () => {
           </p>
           <p>
             {" "}
-            <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
+            <img src={require("./timelineicon.png").default} width="30" className="" alt="Timeline icoontje" />
           </p>
         </section>
       </div>
 
       <div className="container left-container">
-        <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
+        <img src={require("./timelineicon.png").default} width="30" className="" alt="Timeline icoontje" />
         <section className="textbox">
           <small>5 Juli tot 9 Juli 2021</small>
           <h3>Eerste demodam hackathon</h3>
@@ -39,7 +39,7 @@ const Timeline = () => {
           </hgroup>
           <p>Onboarding en planning</p>
           <p>
-            <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
+            <img src={require("./timelineicon.png").default} width="30" className="" alt="Timeline icoontje" />
           </p>
         </div>
       </div>
@@ -52,7 +52,7 @@ const Timeline = () => {
           </hgroup>
           <p>Lancering van Demodam</p>
           <p>
-            <img src={require("./timelineicon.png").default} width="30" className="" alt="a" />
+            <img src={require("./timelineicon.png").default} width="30" className="" alt="Timeline icoontje" />
           </p>
         </section>
       </div>
