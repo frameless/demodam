@@ -35,7 +35,7 @@ jobs:
 
       - name: Deployment to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
-        if: github.ref == 'refs/heads/main'
+        #        if: github.ref == 'refs/heads/main'
         with:
           branch: gh-pages
           folder: public/
