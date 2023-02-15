@@ -19,8 +19,8 @@ const IndexPage = () => {
             <Hero />
             <Content />
           </main>
-          <Timeline />
         </div>
+        <Timeline />
         <Footer />
       </div>
     </>

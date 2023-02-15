@@ -1,51 +1,71 @@
+.timelineheading{
+  display: flex;
+  background-color: rgb(245, 245, 246);
+  font-size: 2rem;
+  max-width: 100%;
+  padding: 2.5rem 0 2.5rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
 .timeline {
+  display: flex;
+  flex-direction: column;
+  
   position: relative;
-  max-width: 1200px;
-  margin: 100px auto;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .timeline::after {
-  content: "";
+  content: '';
   position: absolute;
-  width: 8px;
-  height: 100%;
+  width: 6px;
+  background-color: rgb(245, 245, 246);
+  top: 0;
+  bottom: 0;
   left: 50%;
-  background: white;
-  z-index: -1;
   margin-left: -3px;
 }
 
 .container {
-  padding: 10px 50px;
-  position: relative;
-  width: 50%;
+    position: relative;
+    padding: 10px 45px;
+    width: 50%;
+    left: 50%;
+  
   /* background-color: gray; */
 }
 
 .textbox {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(255, 255, 255);
   padding: 20px 30px;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
+  box-shadow: rgba(47, 28, 80, 0.2) 0px 1px 10px 0px;
 }
 
 .right-container {
-  left: -9%;
+  left: 5%;
 }
 
 .left-container {
   left: 50%;
 }
 
-.container img {
-  position: absolute;
-  border-radius: 50%;
-  right: -20px;
-  top: 32px;
-  z-index: 10;
-}
 
-.left-container img {
-  left: -20px;
+.container ::after{
+  content: "";
+position: absolute;
+width: 25px;
+height: 25px;
+right: -27px;
+background-color: rgb(247, 108, 108);
+border: 4px solid rgb(247, 108, 108);
+top: 19px;
+border-radius: 50%;
+z-index: 1;
 }
