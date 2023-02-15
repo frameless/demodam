@@ -5,8 +5,9 @@ import Icons from "./icons.jsx";
 const Header = () => (
   <header>
     <nav>
-      <a href="#">
-        <DemodamLogo></DemodamLogo>
+      {/* TODO: don't make this a link on the homepage itself */}
+      <a href="#" aria-label="Homepage">
+        <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
       </a>
       <ul>
         <li>
