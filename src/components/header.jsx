@@ -14,7 +14,7 @@ const Header = () => {
         <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
       </a>
       <button
-        aria-expanded="true"
+        aria-expanded={open ? "true" : "false"}
         className={`nav-burger ${open ? "active" : ""}`}
         onClick={() => {
           setOpen(!open);
@@ -70,12 +70,12 @@ const Header = () => {
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="#" class="nav-link" aria-label="verandert pagina naar nederlands" hrefLang="nl" lang="nl">
               NL
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="#" class="nav-link" aria-label="" hrefLang="en" lang="en">
               EN
             </a>
           </li>
