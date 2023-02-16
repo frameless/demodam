@@ -9,11 +9,23 @@ const Header = () => {
 
   return (
     <header class="header">
+      {/* TODO: don't make this a link on the homepage itself */}
+      <a href="#" aria-label="Homepage" class="headerLogo" tabIndex="1">
+        <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
+      </a>
+      <button
+        tabIndex="0"
+        aria-expanded="true"
+        className={`nav-burger ${open ? "active" : ""}`}
+        onClick={() => {
+          setOpen(!open);
+        }}
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
       <nav class="headerNav">
-        {/* TODO: don't make this a link on the homepage itself */}
-        <a href="#" aria-label="Homepage" class="headerLogo">
-          <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
-        </a>
         <ul
           className={`headerList ${open ? "active" : ""}`}
           onClick={() => {
@@ -66,16 +78,6 @@ const Header = () => {
             </ul>
           </li>
         </ul>
-        <div
-          className={`nav-burger ${open ? "active" : ""}`}
-          onClick={() => {
-            setOpen(!open);
-          }}
-        >
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
       </nav>
     </header>
   );
