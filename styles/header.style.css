@@ -76,6 +76,7 @@
   
   .headerList {
     position: fixed;
+    visibility: hidden;
     left: -100%;
     top: 7rem;
     flex-direction: column;
@@ -88,7 +89,8 @@
     margin: 16px 0;
   }
   .headerList.active {
-    left:  0%;
+    left: 0%;
+    visibility: visible;
   }
   
 }

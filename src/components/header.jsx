@@ -14,7 +14,7 @@ const Header = () => {
         <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
       </a>
       <button
-        tabIndex="0"
+        tabIndex={"tabIndex:0"}
         aria-expanded="true"
         className={`nav-burger ${open ? "active" : ""}`}
         onClick={() => {
