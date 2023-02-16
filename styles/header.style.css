@@ -41,6 +41,7 @@
 
   .nav-burger {
     display: block;
+    margin: auto 0;
   }
 
   .nav-burger.active .bar:nth-child(2) {
