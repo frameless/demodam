@@ -1,10 +1,10 @@
+import clsx from "clsx";
 import { Link } from "gatsby";
 import * as React from "react";
 import { useState } from "react";
 import "/styles/header.style.css";
 import DemodamLogo from "./demodamlogo.jsx";
 import { Github, Slack } from "./icons.jsx";
-import clsx from "clsx";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
