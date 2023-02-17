@@ -4,6 +4,7 @@ import { useState } from "react";
 import "/styles/header.style.css";
 import DemodamLogo from "./demodamlogo.jsx";
 import { Github, Slack } from "./icons.jsx";
+import clsx from "clsx";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -27,7 +28,7 @@ const Header = () => {
           <span class="bar"></span>
         </button>
       </div>
-      <nav class="headerNav" id="nav" hidden={!open}>
+      <nav class={clsx("headerNav", open && "headerNav--expanded")} id="nav">
         <ul
           className={`headerList ${open ? "active" : ""}`}
           onClick={() => {
