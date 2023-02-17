@@ -63,6 +63,9 @@
   .headerNav {
     justify-content: space-around;
   }
+  .headerNav:not(.headerNav--expanded) {
+    display: none;
+  }
 
   .headerLogo {
     flex-grow: 1;
