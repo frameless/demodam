@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import * as React from "react";
 import { useState } from "react";
 import "/styles/header.style.css";
@@ -6,24 +7,25 @@ import { Github, Slack } from "./icons.jsx";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-
   return (
     <header class="header">
       {/* TODO: don't make this a link on the homepage itself */}
       <a href="#" aria-label="Homepage" class="headerLogo" tabIndex="1">
-        <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
-      </a>
-      <button
-        aria-expanded={open ? "true" : "false"}
-        className={`nav-burger ${open ? "active" : ""}`}
-        onClick={() => {
-          setOpen(!open);
-        }}
-      >
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
+        <Link to="/" aria-label="Homepage" class="headerLogo" tabIndex="1">
+          <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
+        </Link>
+        <button
+          aria-expanded={open ? "true" : "false"}
+          aria-controls="nav"
+          className={`nav-burger ${open ? "active" : ""}`}
+          onClick={() => {
+            setOpen(!open);
+          }}
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
       <nav class="headerNav">
         <ul
           className={`headerList ${open ? "active" : ""}`}
@@ -32,52 +34,52 @@ const Header = () => {
           }}
         >
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <Link href="#" class="nav-link">
               home
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <Link href="#" class="nav-link">
               sluit je aan
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <Link href="#" class="nav-link">
               hackatons
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <Link href="#" class="nav-link">
               organisaties
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <Link href="#" class="nav-link">
               governance
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <Link href="#" class="nav-link">
               contact
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" aria-label="github">
+            <Link href="#" class="nav-link" aria-label="github">
               <Github></Github>
-            </a>
-            <a href="#" class="nav-link" aria-label="Slack">
+            </Link>
+            <Link href="#" class="nav-link" aria-label="Slack">
               <Slack></Slack>
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" aria-label="verandert pagina naar nederlands" hrefLang="nl" lang="nl">
+            <Link href="#" class="nav-link" aria-label="verandert pagina naar nederlands" hrefLang="nl" lang="nl">
               NL
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" aria-label="" hrefLang="en" lang="en">
+            <Link href="#" class="nav-link" aria-label="changes page to english" hrefLang="en" lang="en">
               EN
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
