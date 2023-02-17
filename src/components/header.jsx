@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header class="header">
       {/* TODO: don't make this a link on the homepage itself */}
-      <a href="#" aria-label="Homepage" class="headerLogo" tabIndex="1">
+      <div className="logo-button-head">
         <Link to="/" aria-label="Homepage" class="headerLogo" tabIndex="1">
           <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
         </Link>
@@ -26,7 +26,8 @@ const Header = () => {
           <span class="bar"></span>
           <span class="bar"></span>
         </button>
-      <nav class="headerNav">
+      </div>
+      <nav class="headerNav" id="nav" hidden={!open}>
         <ul
           className={`headerList ${open ? "active" : ""}`}
           onClick={() => {
