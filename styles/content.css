@@ -1,5 +1,8 @@
 .content-container {
-  text-align: right !important;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1rem;
+  max-width: 992px;
 }
 .content-section{
   margin-top: 2.5rem;
@@ -21,6 +24,15 @@
   width: 1px !important;
   white-space: nowrap !important;
 }
+.content-vid {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.content-iblock {
+  display: flex;
+}
+
 .content-p {
   text-align: left;
   font-size: 1rem;
@@ -28,4 +40,7 @@
   margin-bottom: 1rem;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+}
+.content-image {
+  width: 100%;
 }
