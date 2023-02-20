@@ -16,7 +16,6 @@
   padding-bottom: 2.5rem;
 }
 
-
 .timeline::after {
   content: "";
   position: absolute;
@@ -28,14 +27,12 @@
   margin-left: -3px;
 }
 
-
 .containert {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
-
 
 .containert::after {
   content: "";
@@ -50,16 +47,13 @@
   z-index: 1;
 }
 
-
 .left {
   left: 0;
 }
 
-
 .right {
   left: 50%;
 }
-
 
 .left::before {
   content: " ";
@@ -71,9 +65,8 @@
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #F5F5F6;
+  border-color: transparent transparent transparent #f5f5f6;
 }
-
 
 .right::before {
   content: " ";
@@ -85,14 +78,12 @@
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #F5F5F6 transparent transparent;
+  border-color: transparent #f5f5f6 transparent transparent;
 }
-
 
 .right::after {
   left: -12px;
 }
-
 
 .textbox {
   display: flex;
@@ -105,20 +96,16 @@
   padding: 1.5rem;
 }
 
-
 @media screen and (max-width: 600px) {
-  
   .timeline::after {
     left: 31px;
   }
-
 
   .containert {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
-
 
   .container::before {
     left: 60px;
@@ -127,12 +114,10 @@
     border-color: transparent white transparent transparent;
   }
 
-
   .left::after,
   .right::after {
     left: 19px;
   }
-
 
   .right {
     left: 0%;
