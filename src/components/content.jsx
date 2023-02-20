@@ -73,6 +73,7 @@ const Content = () => (
           gebouwd zijn.
         </p>
       </section>
+      <div>
         <p>
           <Image
             className="content-image"
@@ -81,7 +82,7 @@ const Content = () => (
           />
         </p>
       </div>
-    <div>
+    </div>
     <div className="content-iblock">
       <section>
         <Heading2>Demodam helpt om Common Ground te verbeteren.</Heading2>
