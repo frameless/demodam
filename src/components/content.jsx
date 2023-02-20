@@ -5,28 +5,28 @@ import intergrationimage from "../images/integratie-signalen.svg";
 import persondataimage from "../images/person-data.svg";
 import persondocumentimage from "../images/person-document.svg";
 import womanchecklistimage from "../images/women-checklist.svg";
-import "./content.css";
+import "/styles/content.css";
 
 const Content = () => (
-  <div>
-    <section>
+  <div className="content-container">
+    <section className="content-section">
       <heading2 class="sr-only">Introductie</heading2>
-      <p>
+      <p className="content-p">
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten. Op Demodam.nl kun je straks zien welke Common Ground componenten (bouwstenen)
         achter die diensten al klaar zijn en hoe ze met elkaar samenwerken. Gemeenten kunnen vervolgens besluiten om
         zo`n dienst, bijvoorbeeld een applicatie voor online geboorteaangifte, ook in te zetten voor hun inwoners. Ook
         is het mogelijk om verder te bouwen bovenop wat al beschikbaar is door zowel leveranciers als gemeenten.
       </p>
-      <p>
+      <p className="content-p">
         Demodam wordt gemaakt en onderhouden door de Common Ground community, bestaande uit mensen en organisaties
         vanuit zowel de overheid als het bedrijfsleven. De Foundation for Public Code ziet erop toe dat alle partijen
         gelijkwaardig zijn. Iedereen is welkom om bij te dragen.
       </p>
     </section>
-    <section>
-      <heading2>Demodam.nl is tijdelijk niet beschikbaar.</heading2>
-      <p>
+    <section className="content-section">
+      <Heading2>Demodam.nl is tijdelijk niet beschikbaar.</Heading2>
+      <p className="content-p">
         Wegens de log4j bug hebben we Demodam.nl tijdelijk offline gehaald. Gezien er ook een migratie op handen staat,
         zullen we dit hierin meenemen. Vanaf eind januari 2022 komt Demodam.nl weer in de lucht. Onze excuses voor het
         ongemak.
