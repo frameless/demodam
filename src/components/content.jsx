@@ -76,7 +76,7 @@ const Content = () => (
       <div>
         <p>
           <Image
-            className="content-image"
+            className="utrecht-img--scale-down"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={womanchecklistimage}
           />
@@ -97,7 +97,7 @@ const Content = () => (
         </p>
         <p>
           <Image
-            className="content-image"
+            className="utrecht-img--scale-down"
             alt="illustratie van een persoon die een document bekijkt"
             src={persondocumentimage}
           />
@@ -117,7 +117,7 @@ const Content = () => (
         </p>
         <p>
           <Image
-            className="content-image"
+            className="utrecht-img--scale-down"
             alt="illustratie van persoon met scherm acht de persoon met data"
             src={persondataimage}
           />
