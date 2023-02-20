@@ -1,3 +1,11 @@
+.content-container {
+  text-align: right !important;
+}
+.content-section{
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  padding: 2.5rem 2.5rem 0 2.5rem;
+}
 .sr-only {
   /* props to Kitty */
   /* https://kittygiraudel.com/snippets/sr-only-class/ */
@@ -12,4 +20,12 @@
   position: absolute !important;
   width: 1px !important;
   white-space: nowrap !important;
+}
+.content-p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 150%;
+  margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
