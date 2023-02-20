@@ -48,7 +48,7 @@ const Content = () => (
     <div className="content-iblock">
       <div>
         <Image
-          className="content-image"
+          className="utrecht-img--scale-down"
           alt="Illustratie van een laptop die een encrypte verificatie stuurd naar een telefoon en een website die de verificatie code vraagt met een vinkje"
           src={intergrationimage}
         />
