@@ -24,11 +24,7 @@ const Blackbar = () => (
           <Image className="blackbar-image" alt="bedrijfs logo kadaster" src={kadaster} />
         </a>
         <a href="#">
-          <Image
-            className="utrecht-img--scale-down blackbar-image"
-            alt="bedrijfs logo van foundation for public code"
-            src={foundation}
-          />
+          <Image className="blackbar-image" alt="bedrijfs logo van foundation for public code" src={foundation} />
         </a>
       </div>
     </div>
