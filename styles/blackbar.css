@@ -17,6 +17,6 @@
 }
 
 .blackbar-image {
-  height: 45px;
+  max-height: 45px;
   padding: 0.25rem;
 }
