@@ -7,9 +7,10 @@
 }
 
 .containerf {
-  margin: 0px auto;
-  padding: 0px 1rem;
-  width: 75%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 992px;
 }
 
 ul {
