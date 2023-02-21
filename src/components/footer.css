@@ -1,9 +1,26 @@
 .main-footer {
-  color: rgb(0, 0, 0);
   background-color: rgb(245, 245, 246);
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding: 2.5rem 0.75rem 2rem;
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+.containerf {
+  margin: 0px auto;
+  padding: 0px 1rem;
+  width: 75%;
+  
+}
+
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: rgb(33, 33, 33);
+  padding-bottom: 0.2rem;
+  font-size: 16px;
+  font-weight: 900;
 }
