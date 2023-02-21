@@ -65,3 +65,15 @@
 .content-ihead {
   text-align: left;
 }
+
+@media (max-width: 620px) {
+  .content-iblock {
+    display: block;
+  }
+  .content-isection {
+    width: 100%;
+  }
+  .content-image-container {
+    width: 100%;
+  }
+}
