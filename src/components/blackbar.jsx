@@ -12,37 +12,21 @@ const Blackbar = () => (
     <div className="blackbar-container">
       <div className="blackbar-image-block">
         <a href="#">
-          <Image
-            className="utrecht-img--scale-down blackbar-image"
-            alt="illustratie van een persoon die een checklijst afvinkt"
-            src={conduction}
-          />
+          <Image className="blackbar-image" alt="bedrijfs logo van conduction." src={conduction} />
+        </a>
+        <a href="#">
+          <Image className="blackbar-image" alt="bedrijfs logo van maykin media." src={maykinmedia} />
+        </a>
+        <a href="#">
+          <Image className="blackbar-image" alt="bedrijf logo dimpact." src={dimpact} />
+        </a>
+        <a href="#">
+          <Image className="blackbar-image" alt="bedrijfs logo kadaster" src={kadaster} />
         </a>
         <a href="#">
           <Image
             className="utrecht-img--scale-down blackbar-image"
-            alt="illustratie van een persoon die een checklijst afvinkt"
-            src={maykinmedia}
-          />
-        </a>
-        <a href="#">
-          <Image
-            className="utrecht-img--scale-down blackbar-image"
-            alt="illustratie van een persoon die een checklijst afvinkt"
-            src={dimpact}
-          />
-        </a>
-        <a href="#">
-          <Image
-            className="utrecht-img--scale-down blackbar-image"
-            alt="illustratie van een persoon die een checklijst afvinkt"
-            src={kadaster}
-          />
-        </a>
-        <a href="#">
-          <Image
-            className="utrecht-img--scale-down blackbar-image"
-            alt="illustratie van een persoon die een checklijst afvinkt"
+            alt="bedrijfs logo van foundation for public code"
             src={foundation}
           />
         </a>
