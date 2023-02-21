@@ -13,3 +13,5 @@ tmp
 .docusaurus
 .angular
 .cache
+package-lock.json
+package.json
