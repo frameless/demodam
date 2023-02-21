@@ -1,5 +1,5 @@
+import { Heading1, Heading3 } from "@utrecht/component-library-react";
 import * as React from "react";
-import { Heading3, Heading1 } from "@utrecht/component-library-react";
 import "./timeline.css";
 
 const Timeline = () => {
