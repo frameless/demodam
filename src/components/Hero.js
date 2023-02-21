@@ -17,6 +17,7 @@ const Hero = () => {
         <br />
         <p>
           <a
+            aria-label="Link naar informatie voor demodam"
             href="https://commonground.nl/blog/view/6c422c0a-e541-41c8-8261-9c8bc90f4d87/doe-mee-met-demodam-de-common-ground-showcase-website"
             className="lowerlink"
           >
