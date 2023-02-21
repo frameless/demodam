@@ -28,3 +28,9 @@
   font-size: 18px;
   line-height: 30px;
 }
+
+@media screen and (max-width: 720px) {
+  .imghero {
+    display: none;
+  }
+}

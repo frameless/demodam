@@ -28,7 +28,7 @@ const Hero = () => {
         <img
           src={require("./hero.png").default}
           width="400"
-          className=""
+          className="imghero"
           alt="artistieke illustratie van vrouw die naar huizen en een boom kijkt"
         />
       </p>
