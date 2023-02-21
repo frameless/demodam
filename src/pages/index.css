@@ -1,8 +1,15 @@
+@font-face {
+  font-family: "sourcesanspro";
+  src: local("sourcesanspro"),
+   url("../fonts/sourcesanspro.ttf") format("truetype");
+  font-weight: bold;
+  }
+
 * {
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "sourcesanspro";
   box-sizing: border-box;
 }
 
