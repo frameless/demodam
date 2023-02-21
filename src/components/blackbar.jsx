@@ -11,37 +11,37 @@ const Blackbar = () => (
   <section className="blackbar-section">
     <div className="blackbar-container">
       <div className="blackbar-image-block">
-        <a>
+        <a href="#">
           <Image
-            className="utrecht-img--scale-down"
+            className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={conduction}
           />
         </a>
         <a>
           <Image
-            className="utrecht-img--scale-down"
+            className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={maykinmedia}
           />
         </a>
         <a>
           <Image
-            className="utrecht-img--scale-down"
+            className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={dimpact}
           />
         </a>
         <a>
           <Image
-            className="utrecht-img--scale-down"
+            className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={kadaster}
           />
         </a>
         <a>
           <Image
-            className="utrecht-img--scale-down"
+            className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={foundation}
           />
