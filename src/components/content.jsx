@@ -47,7 +47,7 @@ const Content = () => (
     </div>
     <div className="content-iblock">
       <section className="content-isection">
-        <Heading2 className="content-ihead">Op Demodam.nl laten we zien wat er beschikbaar is</Heading2>
+        <Heading2>Op Demodam.nl laten we zien wat er beschikbaar is</Heading2>
         <p className="content-p">
           op <a href="#">Demodam.nl</a> kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het maakt
           tastbaar wat je met Common Ground kunt.
@@ -63,7 +63,7 @@ const Content = () => (
     </div>
     <div className="content-iblock">
       <section className="content-isection">
-        <Heading2 className="content-ihead">Demodam is een omgeving voor samenwerken</Heading2>
+        <Heading2>Demodam is een omgeving voor samenwerken</Heading2>
         <p className="content-p">
           Overheden en hun leveranciers kunnen elkaar makkelijker vinden. Het helpt ons om onze werkwijzen op elkaar af
           te stemmen en het maakt het makkelijker om componenten met elkaar te laten samenwerken. Hierbij wordt je even
@@ -85,7 +85,7 @@ const Content = () => (
     </div>
     <div className="content-iblock">
       <section className="content-isection">
-        <Heading2 className="content-ihead">Demodam helpt om Common Ground te verbeteren.</Heading2>
+        <Heading2>Demodam helpt om Common Ground te verbeteren.</Heading2>
         <p className="content-p">
           We stellen samen vast wat de minimale eisen aan componenten zijn op bijvoorbeeld het gebied van beveiliging,
           gebruiksvriendelijkheid en (code) standaarden. We leren daarbij van elkaar wat de best practises zijn. Het
@@ -108,7 +108,7 @@ const Content = () => (
     </div>
     <div className="content-iblock">
       <section className="content-isection">
-        <Heading2 className="content-ihead">Met Demodam kun je innoveren</Heading2>
+        <Heading2>Met Demodam kun je innoveren</Heading2>
         <p className="content-p">
           Juist doordat er straks al een stevige basis staat, kun je daar makkelijk op voortborduren. Ter illustratie:
           stel je wilt een dienst ontwikkelen over verschillende overheden heen, bijvoorbeeld een klantreis waarbij je
