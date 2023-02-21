@@ -37,32 +37,32 @@ const Header = () => {
         >
           <li class="nav-item">
             <Link href="#" class="nav-link">
-              home
+              Home
             </Link>
           </li>
           <li class="nav-item">
             <Link href="#" class="nav-link">
-              sluit je aan
+              Sluit je aan
             </Link>
           </li>
           <li class="nav-item">
             <Link href="#" class="nav-link">
-              hackatons
+              Hackatons
             </Link>
           </li>
           <li class="nav-item">
             <Link href="#" class="nav-link">
-              organisaties
+              Organisaties
             </Link>
           </li>
           <li class="nav-item">
             <Link href="#" class="nav-link">
-              governance
+              Governance
             </Link>
           </li>
           <li class="nav-item">
             <Link href="#" class="nav-link">
-              contact
+              Contact
             </Link>
           </li>
           <li class="nav-item">
