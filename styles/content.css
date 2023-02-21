@@ -34,6 +34,21 @@
 
 .content-iblock {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-iblock:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.content-isection {
+  padding: 2.5rem;
+  width: 60%;
+}
+.content-image-container {
+  width: 40%;
+  padding: 2.5rem;
 }
 
 .content-p {
@@ -46,4 +61,7 @@
 }
 .content-image {
   width: 100%;
+}
+.content-ihead {
+  text-align: left;
 }
