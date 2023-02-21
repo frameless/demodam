@@ -18,28 +18,28 @@ const Blackbar = () => (
             src={conduction}
           />
         </a>
-        <a>
+        <a href="#">
           <Image
             className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={maykinmedia}
           />
         </a>
-        <a>
+        <a href="#">
           <Image
             className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={dimpact}
           />
         </a>
-        <a>
+        <a href="#">
           <Image
             className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src={kadaster}
           />
         </a>
-        <a>
+        <a href="#">
           <Image
             className="utrecht-img--scale-down blackbar-image"
             alt="illustratie van een persoon die een checklijst afvinkt"
