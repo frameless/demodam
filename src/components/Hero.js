@@ -1,5 +1,7 @@
 import { Heading1, Heading3 } from "@utrecht/component-library-react";
+import { Image } from "@utrecht/component-library-react";
 import * as React from "react";
+import hero from "../images/hero.png";
 import "./hero.css";
 
 const Hero = () => {
@@ -26,9 +28,10 @@ const Hero = () => {
         </p>
       </hgroup>
       <p>
-        <img
-          src={require("./hero.png").default}
-          className="imghero"
+        <Image
+          width="400"
+          className="utrecht-img--scale-down imghero"
+          src={hero}
           alt="artistieke illustratie van vrouw die naar huizen en een boom kijkt"
         />
       </p>
