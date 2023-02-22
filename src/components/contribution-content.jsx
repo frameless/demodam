@@ -2,15 +2,16 @@ import { Heading1 } from "@utrecht/component-library-react";
 import { Heading2 } from "@utrecht/component-library-react";
 import { Link } from "gatsby";
 import * as React from "react";
+import "/styles/contribution.css";
 
 const ContributionContent = () => {
   return (
-    <div>
-      <section>
+    <div className="contribute-containers">
+      <section className="contribute-section">
         <Heading1>CONTRIBUTING</Heading1>
         <p>Zo kun je deelnemen aan Demodam.</p>
       </section>
-      <section>
+      <section className="contribute-section">
         <Heading2>Word lid van ons Slack-kanaal</Heading2>
         <p>
           <Link href="https://join.slack.com/t/samenorganiseren/shared_invite/zt-dex1d7sk-wy11sKYWCF0qQYjJHSMW5Q">
@@ -19,13 +20,13 @@ const ContributionContent = () => {
           en sluit je aan bij de #Demodam-kanalen.
         </p>
       </section>
-      <section>
+      <section className="contribute-section">
         <Heading2>Doe mee aan een hackathon</Heading2>
         <p>
           Tijdens <Link href="#">hackathons</Link> bouwen we samen verder aan Demodam volgens onze doelstellingen.
         </p>
       </section>
-      <section>
+      <section className="contribute-section">
         <Heading2>Wees actief op Github</Heading2>
         <p>
           Schiet een issue of pull request in, enz. Bekijk de{" "}
@@ -39,11 +40,11 @@ const ContributionContent = () => {
           om te beginnen.
         </p>
       </section>
-      <section>
+      <section className="contribute-section">
         <Heading2>Vertel het Verder!</Heading2>
         <p>Voel je vrij om te bloggen, tweeten, posten over Demodam wanneer je maar wilt! We doen dit samen.</p>
       </section>
-      <section>
+      <section className="contribute-section">
         <Heading2>Publiceer Common Ground-componenten op Demodam</Heading2>
         <p>
           Demodam is een showcase-website voor open source-componenten. Volg deze{" "}
