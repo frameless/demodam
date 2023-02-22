@@ -1,12 +1,11 @@
 import { Heading1 } from "@utrecht/component-library-react";
 import { Link } from "gatsby";
 import * as React from "react";
-import "/styles/hackatons-content.css";
 import "/styles/alignment.css";
 
 const ContributionContent = () => {
   return (
-    <div className="contribute-container alignment">
+    <div className="alignment">
       <section className="contribute-section">
         <Heading1>Demodam Hackathon III: 20-24 juni 2022</Heading1>
         <p>Demodam Hackathon III vindt plaats tijdens de Week van de (Digitale) Dienstverlening. Doe ook mee! </p>
