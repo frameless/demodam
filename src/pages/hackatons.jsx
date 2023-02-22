@@ -1,6 +1,6 @@
 import * as React from "react";
 import Footer from "../components/Footer.js";
-import Content from "../components/content.jsx";
+import Content from "../components/hackatons-content.jsx";
 import Header from "../components/header.jsx";
 import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
