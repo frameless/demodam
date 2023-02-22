@@ -1,3 +1,4 @@
+import { SkipLink } from "@utrecht/component-library-react/dist/css-module";
 import * as React from "react";
 import Footer from "../components/Footer.js";
 import Content from "../components/hackatons-content.jsx";
@@ -9,6 +10,7 @@ import "../fonts/sourcesanspro.ttf";
 const Hackatons = () => {
   return (
     <>
+      <SkipLink href="#main">Naar de inhoud</SkipLink>
       <div className="page-container">
         <Header />
         <div className="content-wrap">
