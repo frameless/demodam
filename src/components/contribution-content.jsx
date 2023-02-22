@@ -27,12 +27,31 @@ const ContributionContent = () => {
       </section>
       <section>
         <Heading2>Wees actief op Github</Heading2>
+        <p>
+          Schiet een issue of pull request in, enz. Bekijk de{" "}
+          <Link href="https://github.com/demodam/demodam.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22">
+            issues met label good first issue
+          </Link>{" "}
+          en de{" "}
+          <Link href="https://github.com/demodam/demodam.org/labels/good%20first%20issue">
+            issues met label good first issue
+          </Link>{" "}
+          om te beginnen.
+        </p>
       </section>
       <section>
-        <Heading2>Doe mee aan een hackathon</Heading2>
+        <Heading2>Vertel het Verder!</Heading2>
+        <p>Voel je vrij om te bloggen, tweeten, posten over Demodam wanneer je maar wilt! We doen dit samen.</p>
       </section>
       <section>
-        <Heading2>Doe mee aan een hackathon</Heading2>
+        <Heading2>Publiceer Common Ground-componenten op Demodam</Heading2>
+        <p>
+          Demodam is een showcase-website voor open source-componenten. Volg deze{" "}
+          <Link href="https://github.com/demodam/demodam.org/blob/main/src/pages/join.md">
+            stappen om componeneen op demodam te publiceren
+          </Link>
+          . Dat kan tijdens een hackathon, maar ook daarbuiten.
+        </p>
       </section>
     </div>
   );
