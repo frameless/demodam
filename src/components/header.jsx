@@ -66,10 +66,10 @@ const Header = () => {
             </Link>
           </li>
           <li class="nav-item">
-            <Link href="#" class="nav-link" aria-label="github">
+            <Link href="https://github.com/frameless/demodam" class="nav-link" aria-label="github">
               <Github></Github>
             </Link>
-            <Link href="#" class="nav-link" aria-label="Slack">
+            <Link href="https://samenorganiseren.slack.com/archives/C01S2QM81V4" class="nav-link" aria-label="Slack">
               <Slack></Slack>
             </Link>
           </li>
