@@ -32,6 +32,17 @@
   margin-top: 2.5rem;
   margin-bottom: 2rem;
 }
+.content-figure {
+  position: relative;
+  padding-bottom: 56.25% /* 16:9 ratio */;
+  padding-top: 25px;
+  height: 0;
+}
+.content-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .content-iblock {
   display: flex;

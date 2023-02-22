@@ -33,10 +33,11 @@ const Content = () => (
       </p>
     </section>
     <div className="content-vid">
-      <figure>
+      <figure className="content-figure">
         <iframe
-          width="560"
-          height="315"
+          className="content-iframe"
+          width="100%"
+          height="100%"
           src="https://www.youtube-nocookie.com/embed/jTK-sbee2qM"
           title="Demodam kickoff op YouTube"
           frameborder="0"
