@@ -41,7 +41,7 @@ const Header = () => {
             </Link>
           </li>
           <li class="nav-item">
-            <Link href="#" class="nav-link">
+            <Link href="contributing" class="nav-link">
               Sluit je aan
             </Link>
           </li>
