@@ -1,4 +1,3 @@
-import { SkipLink } from "@utrecht/component-library-react/dist/css-module";
 import * as React from "react";
 import Footer from "../components/Footer.js";
 import Content from "../components/content.jsx";
@@ -7,10 +6,9 @@ import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
 import "../fonts/sourcesanspro.ttf";
 
-const IndexPage = () => {
+const Hackatons = () => {
   return (
     <>
-      <SkipLink href="#main">Naar de inhoud</SkipLink>
       <div className="page-container">
         <Header />
         <div className="content-wrap">
@@ -24,12 +22,12 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default Hackatons;
 
 export const Head = () => (
   <>
     <html lang="nl" dir="ltr" />
     <meta charset="utf-8" />
-    <title>heckatons — Demodam</title>
+    <title>Hackatons Page — Demodam</title>
   </>
 );
