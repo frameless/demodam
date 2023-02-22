@@ -47,7 +47,7 @@ const Header = () => {
             </Link>
           </li>
           <li class="nav-item">
-            <Link href="#" class="nav-link">
+            <Link href="/heckatons" class="nav-link">
               Hackatons
             </Link>
           </li>
