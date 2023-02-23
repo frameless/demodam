@@ -84,13 +84,13 @@ const GovernanceContent = () => {
           overeenstemming kunnen komen, wordt de betreffende vraag doorgestuurd naar de kernteamvergadering.
         </p>
         <Heading3>Gezamenlijke verantwoordelijkheden</Heading3>
-        <ul>
+        <ul className="ul-style">
           <li>
             <p>
               Onderhouden van de <strong>missie, visie, waarden, strategie, roadmap, branding en scope</strong> van het
               project
             </p>
-            <ul>
+            <ul className="li-style">
               <li>Verzamelen van geplande functies en presenteren in een uniforme weergave</li>
               <li>Beheer van het merk Demodam</li>
             </ul>
@@ -99,7 +99,7 @@ const GovernanceContent = () => {
             <p>
               <strong>Gemeenschaps- en bestuursaangelegenheden</strong>
             </p>
-            <ul>
+            <ul className="li-style">
               <li>Beheersrechten op Demodam-activa zoals databronnen</li>
               <li>Beslissingen op codebase-niveau nemen</li>
               <li>Verfijn de governance indien nodig</li>
@@ -112,7 +112,7 @@ const GovernanceContent = () => {
             <p>
               <strong>Conflictoplossing</strong>
             </p>
-            <ul>
+            <ul className="li-style">
               <li>
                 Dienen als <strong>escalatieniveau</strong> voor de actiegroepen
               </li>
@@ -124,7 +124,7 @@ const GovernanceContent = () => {
             <p>
               <strong>Technische zaken</strong>
             </p>
-            <ul>
+            <ul className="li-style">
               <li>
                 Bepaal en beslis <strong>technische beperkingen en normen</strong> voor de Demodam-omgeving
               </li>
@@ -228,6 +228,7 @@ const GovernanceContent = () => {
           nemen om de zaken vooruit te helpen, maar kunnen beslissingen van het kernteam niet negeren.
         </p>
       </section>
+      <br />
     </div>
   );
 };
