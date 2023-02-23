@@ -5,7 +5,6 @@ import Content from "../components/contact-content.jsx";
 import Header from "../components/header.jsx";
 import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
-import "../fonts/sourcesanspro.ttf";
 
 const IndexPage = () => {
   return (
