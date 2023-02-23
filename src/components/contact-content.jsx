@@ -8,7 +8,7 @@ const ContributionContent = () => {
   return (
     <div className="contact-container alignment">
       <Heading1>Kom in contact met de Demodam Community</Heading1>
-      <ul>
+      <ul className="ul-list">
         <li>
           Schrijf je in voor onze&nbsp;
           <Link
