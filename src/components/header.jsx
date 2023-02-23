@@ -1,3 +1,4 @@
+import { PageHeader } from "@utrecht/component-library-react";
 import clsx from "clsx";
 import { Link } from "gatsby";
 import * as React from "react";
@@ -10,7 +11,7 @@ import { Github, Slack } from "./icons.jsx";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header class="header alignment">
+    <PageHeader class="header alignment">
       {/* TODO: don't make this a link on the homepage itself */}
       <div className="logo-button-head">
         <Link to="/" aria-label="Homepage" class="headerLogo" tabIndex="1">
@@ -86,7 +87,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </PageHeader>
   );
 };
 export default Header;
