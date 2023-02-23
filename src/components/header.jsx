@@ -3,13 +3,14 @@ import { Link } from "gatsby";
 import * as React from "react";
 import { useState } from "react";
 import "/styles/header.style.css";
+import "/styles/alignment.css";
 import DemodamLogo from "./demodamlogo.jsx";
 import { Github, Slack } from "./icons.jsx";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header class="header">
+    <header class="header alignment">
       {/* TODO: don't make this a link on the homepage itself */}
       <div className="logo-button-head">
         <Link to="/" aria-label="Homepage" class="headerLogo" tabIndex="1">
