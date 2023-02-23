@@ -1,13 +1,7 @@
-@font-face {
-  font-family: "sourcesanspro";
-  src: local("sourcesanspro"), url("../fonts/sourcesanspro.ttf") format("truetype");
-  font-weight: bold;
-}
-
 * {
   margin: 0;
   padding: 0;
-  font-family: "sourcesanspro";
+  font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
 }
 

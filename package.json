@@ -38,6 +38,7 @@
     "stylelint-order": "5.0.0"
   },
   "dependencies": {
+    "@fontsource/source-sans-pro": "4.5.11",
     "@utrecht/component-library-react": "1.0.0-alpha.247",
     "@utrecht/design-tokens": "1.0.0-alpha.431",
     "clsx": "1.2.1",

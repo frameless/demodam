@@ -8,7 +8,10 @@ import Content from "../components/content.jsx";
 import Header from "../components/header.jsx";
 import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
-import "../fonts/sourcesanspro.ttf";
+import "@fontsource/source-sans-pro/400.css";
+import "@fontsource/source-sans-pro/400-italic.css";
+import "@fontsource/source-sans-pro/700.css";
+import "@fontsource/source-sans-pro/700-italic.css";
 
 const IndexPage = () => {
   return (
