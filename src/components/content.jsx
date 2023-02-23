@@ -6,9 +6,10 @@ import persondataimage from "../images/person-data.svg";
 import persondocumentimage from "../images/person-document.svg";
 import womanchecklistimage from "../images/women-checklist.svg";
 import "/styles/content.css";
+import "/styles/alignment.css";
 
 const Content = () => (
-  <div className="content-container">
+  <div className="content-container alignment">
     <section className="content-section">
       <heading2 class="sr-only">Introductie</heading2>
       <p className="content-p">
