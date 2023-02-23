@@ -1,3 +1,4 @@
+import { PageContent } from "@utrecht/component-library-react";
 import { Heading2 } from "@utrecht/component-library-react";
 import { Image } from "@utrecht/component-library-react";
 import * as React from "react";
@@ -9,7 +10,7 @@ import "/styles/content.css";
 import "/styles/alignment.css";
 
 const Content = () => (
-  <div className="content-container alignment">
+  <PageContent className="content-container alignment">
     <section className="content-section">
       <heading2 class="sr-only">Introductie</heading2>
       <p className="content-p">
@@ -130,6 +131,6 @@ const Content = () => (
         </p>
       </div>
     </div>
-  </div>
+  </PageContent>
 );
 export default Content;
