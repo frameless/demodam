@@ -108,3 +108,6 @@ public
 
 # Ignore OS files
 .DS_Store
+
+#page data
+.page-data.json
