@@ -1,4 +1,5 @@
 import { PageHeader } from "@utrecht/component-library-react";
+import { Button } from "@utrecht/component-library-react";
 import clsx from "clsx";
 import { Link } from "gatsby";
 import * as React from "react";
@@ -11,13 +12,13 @@ import { Github, Slack } from "./icons.jsx";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <PageHeader class="header alignment">
-      {/* TODO: don't make this a link on the homepage itself */}
+    <PageHeader className="header alignment">
+      {/* TODO: don't make thi a link on the homepage itself */}
       <div className="logo-button-head">
         <Link to="/" aria-label="Homepage" class="headerLogo" tabIndex="1">
           <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
         </Link>
-        <button
+        <Button
           aria-expanded={open ? "true" : "false"}
           aria-controls="nav"
           className={`nav-burger ${open ? "active" : ""}`}
@@ -28,7 +29,7 @@ const Header = () => {
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
-        </button>
+        </Button>
       </div>
       <nav class={clsx("headerNav", open && "headerNav--expanded")} id="nav">
         <ul
