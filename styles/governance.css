@@ -1,7 +1,9 @@
 .ul-style {
   list-style-type: disc;
+  padding-inline-start: 4rem;
 }
 
 .li-style {
   list-style-type: circle;
+  padding-inline-start: 4rem;
 }
