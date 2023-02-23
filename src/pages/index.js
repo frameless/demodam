@@ -1,11 +1,11 @@
 import { SkipLink } from "@utrecht/component-library-react/dist/css-module";
 import * as React from "react";
-import Footer from "../components/Footer.js";
-import Hero from "../components/Hero.js";
-import Timeline from "../components/Timeline";
 import Blackbar from "../components/blackbar.jsx";
 import Content from "../components/content.jsx";
+import Footer from "../components/footer.jsx";
 import Header from "../components/header.jsx";
+import Hero from "../components/hero.jsx";
+import Timeline from "../components/timeline.jsx";
 import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
 import "@fontsource/source-sans-pro/400.css";
