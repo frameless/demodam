@@ -5,7 +5,6 @@ import Header from "../components/header.jsx";
 import Content from "../components/organisaties-content.jsx";
 import "./index.css";
 import "@utrecht/design-tokens/dist/index.css";
-import "../fonts/sourcesanspro.ttf";
 
 const IndexPage = () => {
   return (
