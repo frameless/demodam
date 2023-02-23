@@ -1,6 +1,6 @@
 import { Heading1, Heading3 } from "@utrecht/component-library-react";
 import * as React from "react";
-import "./timeline.css";
+import "/styles/timeline.css";
 
 const Timeline = () => {
   return (

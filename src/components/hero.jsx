@@ -2,7 +2,7 @@ import { Heading1, Heading3 } from "@utrecht/component-library-react";
 import { Image } from "@utrecht/component-library-react";
 import * as React from "react";
 import hero from "../images/hero.png";
-import "./hero.css";
+import "/styles/hero.css";
 
 const Hero = () => {
   return (
