@@ -52,17 +52,17 @@ const Header = () => {
             </Link>
           </li>
           <li class="nav-item">
-            <Link href="#" class="nav-link">
+            <Link href="/organisaties" class="nav-link">
               Organisaties
             </Link>
           </li>
           <li class="nav-item">
-            <Link href="#" class="nav-link">
+            <Link href="/governance" class="nav-link">
               Governance
             </Link>
           </li>
           <li class="nav-item">
-            <Link href="#" class="nav-link">
+            <Link href="/contact" class="nav-link">
               Contact
             </Link>
           </li>
