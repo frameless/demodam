@@ -13,14 +13,14 @@ const Content = () => (
   <PageContent className="content-container alignment">
     <section className="content-section">
       <heading2 class="sr-only">Introductie</heading2>
-      <p className="content-p">
+      <p className="content-p utrecht-paragraph">
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten. Op Demodam.nl kun je straks zien welke Common Ground componenten (bouwstenen)
         achter die diensten al klaar zijn en hoe ze met elkaar samenwerken. Gemeenten kunnen vervolgens besluiten om
         zo`n dienst, bijvoorbeeld een applicatie voor online geboorteaangifte, ook in te zetten voor hun inwoners. Ook
         is het mogelijk om verder te bouwen bovenop wat al beschikbaar is door zowel leveranciers als gemeenten.
       </p>
-      <p className="content-p">
+      <p className="content-p utrecht-paragraph">
         Demodam wordt gemaakt en onderhouden door de Common Ground community, bestaande uit mensen en organisaties
         vanuit zowel de overheid als het bedrijfsleven. De Foundation for Public Code ziet erop toe dat alle partijen
         gelijkwaardig zijn. Iedereen is welkom om bij te dragen.
@@ -28,7 +28,7 @@ const Content = () => (
     </section>
     <section className="content-section">
       <Heading2>Demodam.nl is tijdelijk niet beschikbaar.</Heading2>
-      <p className="content-p">
+      <p className="content-p utrecht-paragraph">
         Wegens de log4j bug hebben we Demodam.nl tijdelijk offline gehaald. Gezien er ook een migratie op handen staat,
         zullen we dit hierin meenemen. Vanaf eind januari 2022 komt Demodam.nl weer in de lucht. Onze excuses voor het
         ongemak.
@@ -51,7 +51,7 @@ const Content = () => (
     <div className="content-iblock">
       <section className="content-isection">
         <Heading2>Op Demodam.nl laten we zien wat er beschikbaar is</Heading2>
-        <p className="content-p">
+        <p className="content-p utrecht-paragraph">
           op <a href="#">Demodam.nl</a> kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het maakt
           tastbaar wat je met Common Ground kunt.
         </p>
@@ -67,7 +67,7 @@ const Content = () => (
     <div className="content-iblock">
       <section className="content-isection">
         <Heading2>Demodam is een omgeving voor samenwerken</Heading2>
-        <p className="content-p">
+        <p className="content-p utrecht-paragraph">
           Overheden en hun leveranciers kunnen elkaar makkelijker vinden. Het helpt ons om onze werkwijzen op elkaar af
           te stemmen en het maakt het makkelijker om componenten met elkaar te laten samenwerken. Hierbij wordt je even
           niet gehinderd door legacy systemen en ontwikkelagenda’s van gemeenten, zodat je makkelijker proof of concepts
@@ -89,7 +89,7 @@ const Content = () => (
     <div className="content-iblock">
       <section className="content-isection">
         <Heading2>Demodam helpt om Common Ground te verbeteren.</Heading2>
-        <p className="content-p">
+        <p className="content-p utrecht-paragraph">
           We stellen samen vast wat de minimale eisen aan componenten zijn op bijvoorbeeld het gebied van beveiliging,
           gebruiksvriendelijkheid en (code) standaarden. We leren daarbij van elkaar wat de best practises zijn. Het
           doel is uiteindelijk dat alle componenten op Demodam te zien zijn in een app store vergelijkbaar met die op je
@@ -112,7 +112,7 @@ const Content = () => (
     <div className="content-iblock">
       <section className="content-isection">
         <Heading2>Met Demodam kun je innoveren</Heading2>
-        <p className="content-p">
+        <p className="content-p utrecht-paragraph">
           Juist doordat er straks al een stevige basis staat, kun je daar makkelijk op voortborduren. Ter illustratie:
           stel je wilt een dienst ontwikkelen over verschillende overheden heen, bijvoorbeeld een klantreis waarbij je
           als burger in een vloeiend proces zowel je geboorteaangifte kunt doen (bij je gemeente) als
