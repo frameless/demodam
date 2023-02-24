@@ -1,5 +1,4 @@
 import { PageHeader } from "@utrecht/component-library-react";
-import { Button } from "@utrecht/component-library-react";
 import clsx from "clsx";
 import { Link } from "gatsby";
 import * as React from "react";
@@ -18,7 +17,7 @@ const Header = () => {
         <Link to="/" aria-label="Homepage" class="headerLogo" tabIndex="1">
           <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
         </Link>
-        <Button
+        <button
           aria-expanded={open ? "true" : "false"}
           aria-controls="nav"
           className={`nav-burger ${open ? "active" : ""}`}
@@ -29,7 +28,7 @@ const Header = () => {
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
-        </Button>
+        </button>
       </div>
       <nav class={clsx("headerNav", open && "headerNav--expanded")} id="nav">
         <ul
