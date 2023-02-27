@@ -18,6 +18,7 @@ const Header = () => {
           <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
         </Link>
         <button
+          aria-label="collapse menu navigation"
           aria-expanded={open ? "true" : "false"}
           aria-controls="nav"
           className={`nav-burger ${open ? "active" : ""}`}
