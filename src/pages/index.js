@@ -6,7 +6,7 @@ import Footer from "../components/footer.jsx";
 import Header from "../components/header.jsx";
 import Hero from "../components/hero.jsx";
 import Timeline from "../components/timeline.jsx";
-import "./index.css";
+import "/styles/index.css";
 import "@utrecht/design-tokens/dist/index.css";
 import "@fontsource/source-sans-pro/400.css";
 import "@fontsource/source-sans-pro/400-italic.css";

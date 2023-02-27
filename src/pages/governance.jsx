@@ -3,7 +3,7 @@ import * as React from "react";
 import Footer from "../components/footer.jsx";
 import Content from "../components/governance-content.jsx";
 import Header from "../components/header.jsx";
-import "./index.css";
+import "/styles/index.css";
 import "@utrecht/design-tokens/dist/index.css";
 
 const Governance = () => {
