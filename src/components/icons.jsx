@@ -3,7 +3,7 @@ import * as React from "react";
 export const Github = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    role="image"
+    role="graphics-symbol"
     aria-label="github logo"
     width="24"
     height="24"
@@ -15,7 +15,7 @@ export const Github = () => (
 export const Slack = () => (
   <svg
     enable-background="new 0 0 2447.6 2452.5"
-    role="image"
+    role="graphics-symbol"
     aria-label="slack logo"
     width="24"
     height="24"
