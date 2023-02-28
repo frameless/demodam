@@ -1,7 +1,6 @@
 import { Heading1, Heading3 } from "@utrecht/component-library-react";
-import { Image } from "@utrecht/component-library-react";
+import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
-import hero from "../images/hero.png";
 import "/styles/hero.css";
 
 const Hero = () => {
@@ -28,11 +27,13 @@ const Hero = () => {
         </p>
       </hgroup>
       <p>
-        <Image
-          width="400"
+        <StaticImage
+          height={"100%"}
+          width={"100%"}
           className="utrecht-img--scale-down imghero"
-          src={hero}
+          src="../images/hero.png"
           alt="artistieke illustratie van vrouw die naar huizen en een boom kijkt"
+          imgStyle={{ objectFit: "contain" }}
         />
       </p>
     </div>
