@@ -28,9 +28,7 @@ const Hero = () => {
       </hgroup>
       <p>
         <StaticImage
-          height={"100%"}
-          width={"100%"}
-          className="utrecht-img--scale-down imghero"
+          className="imghero"
           src="../images/hero.png"
           alt="artistieke illustratie van vrouw die naar huizen en een boom kijkt"
           imgStyle={{ objectFit: "contain" }}
