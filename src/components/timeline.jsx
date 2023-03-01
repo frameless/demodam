@@ -28,7 +28,11 @@ const Timeline = () => {
             </hgroup>
             <p>Samen werken aan een commonground etalage</p>
             <br />
-            <a href="#" aria-label="Informatie en inschrijven voor 1ste demodam" style={{ color: "gray" }}>
+            <a
+              href="https://www.meetup.com/nl-NL/Code-For-NL/events/278262253/"
+              aria-label="Informatie en inschrijven voor 1ste demodam"
+              style={{ color: "gray" }}
+            >
               Informatie en inschrijven
             </a>
           </section>
@@ -42,7 +46,11 @@ const Timeline = () => {
             </hgroup>
             <p>Onboarding en planning</p>
             <br />
-            <a href="#" aria-label="Informatie en inschrijven voor 2de demodam" style={{ color: "gray" }}>
+            <a
+              href="https://www.meetup.com/nl-NL/Code-For-NL/events/278475015/"
+              aria-label="Informatie en inschrijven voor 2de demodam"
+              style={{ color: "gray" }}
+            >
               Informatie en inschrijven
             </a>
           </section>
