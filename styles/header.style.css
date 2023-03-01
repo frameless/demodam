@@ -11,6 +11,7 @@
 }
 .headerNav {
   justify-content: center;
+  z-index: 1;
 }
 .headerNav:not([hidden]) {
   display: flex;
