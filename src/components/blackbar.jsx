@@ -7,7 +7,7 @@ const Blackbar = () => {
     <section className="blackbar-section">
       <div className="blackbar-container">
         <div className="blackbar-image-block">
-          <a href="#">
+          <a href="https://conduction.nl/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -17,7 +17,7 @@ const Blackbar = () => {
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
-          <a href="#">
+          <a href="https://www.maykinmedia.nl/nl/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -27,7 +27,7 @@ const Blackbar = () => {
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
-          <a href="#">
+          <a href="https://www.dimpact.nl/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -37,7 +37,7 @@ const Blackbar = () => {
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
-          <a href="#">
+          <a href="https://www.kadaster.nl/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -47,7 +47,7 @@ const Blackbar = () => {
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
-          <a href="#">
+          <a href="https://publiccode.net/">
             <StaticImage
               height={"100%"}
               width={150}
