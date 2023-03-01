@@ -9,7 +9,9 @@ import "@utrecht/design-tokens/dist/index.css";
 const IndexPage = () => {
   return (
     <>
-      <SkipLink href="#main">Naar de inhoud</SkipLink>
+      <SkipLink className="demodam-skiplink" href="#main">
+        Naar de inhoud
+      </SkipLink>
       <div className="page-container">
         <Header />
         <div className="content-wrap">
