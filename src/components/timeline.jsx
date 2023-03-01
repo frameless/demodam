@@ -28,7 +28,7 @@ const Timeline = () => {
             </hgroup>
             <p>Samen werken aan een commonground etalage</p>
             <br />
-            <a href="#" style={{ color: "gray" }}>
+            <a href="#" aria-label="Informatie en inschrijven voor 1ste demodam" style={{ color: "gray" }}>
               Informatie en inschrijven
             </a>
           </section>
@@ -42,7 +42,7 @@ const Timeline = () => {
             </hgroup>
             <p>Onboarding en planning</p>
             <br />
-            <a href="#" style={{ color: "gray" }}>
+            <a href="#" aria-label="Informatie en inschrijven voor 2de demodam" style={{ color: "gray" }}>
               Informatie en inschrijven
             </a>
           </section>
