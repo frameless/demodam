@@ -1,4 +1,11 @@
-import { Heading1, Heading2, Heading3, Paragraph } from "@utrecht/component-library-react";
+import {
+  Heading1,
+  Heading2,
+  Heading3,
+  Paragraph,
+  UnorderedList,
+  UnorderedListItem,
+} from "@utrecht/component-library-react";
 import { Link } from "gatsby";
 import * as React from "react";
 import "/styles/alignment.css";
@@ -16,49 +23,49 @@ const GovernanceContent = () => {
       </section>
       <section>
         <Heading2>Doelen van Demodam</Heading2>
-        <ul className="ul-style">
-          <li>
+        <UnorderedList className="ul-style">
+          <UnorderedListItem>
             <strong>Laten zien.</strong> Demodam toont werkende digitale diensten die gemeenten (en mogelijk andere
             overheidsorganisaties) kunnen hergebruiken.
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <strong>Samenwerken.</strong> Op Demodam leren we hoe we samenwerken in het{" "}
             <Link className="alignment-link" href="https://commonground.nl">
               Common Ground{" "}
             </Link>{" "}
             ecosysteem. Dit gebeurt zowel op systeemniveau (hoe werken componenten op elkaar in?) als op menselijk
             niveau (hoe werken we samen?).
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <strong>Verbeteren</strong> Samen bepalen we wanneer een onderdeel productierijp is.
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <strong>Innoveren.</strong> Door een stabiele en rijke softwareomgeving aan te bieden, wordt het makkelijker
             om nieuwe digitale diensten te ontwikkelen.
-          </li>
-        </ul>
+          </UnorderedListItem>
+        </UnorderedList>
       </section>
       <section>
         <Heading2>Demodam-principes</Heading2>
-        <ul className="ul-style">
-          <li>
+        <UnorderedList className="ul-style">
+          <UnorderedListItem>
             Onze community is gastvrij en respectvol zoals vermeld in onze{" "}
             <Link className="alignment-link" href="https://demodam.org/CODE_OF_CONDUCT.md">
               code of conduct.{" "}
             </Link>{" "}
             Als community willen we het nieuwe leden van de community gemakkelijk maken om deel te nemen, ongeacht
             achtergrond en kennisniveau.
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             Wij zijn Transparant en toegankelijk. Wijzigingen in de Demodam-organisatie, Demodam-coderepositories en
             Demodam-gerelateerde activiteiten worden openbaar gedaan.
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             Ideeën en bijdragen worden geaccepteerd op basis van hun verdienste en in overeenstemming met de
             projectdoelstellingen en ontwerpprincipes.
-          </li>
-          <li>Demodam is open source.</li>
-        </ul>
+          </UnorderedListItem>
+          <UnorderedListItem>Demodam is open source.</UnorderedListItem>
+        </UnorderedList>
         <Paragraph>
           Door middel van codebase stewardship ondersteunt de Foundation for Public Code het kerteam en de community.
         </Paragraph>
@@ -82,78 +89,86 @@ const GovernanceContent = () => {
           overeenstemming kunnen komen, wordt de betreffende vraag doorgestuurd naar de kernteamvergadering.
         </Paragraph>
         <Heading3>Gezamenlijke verantwoordelijkheden</Heading3>
-        <ul className="ul-style">
-          <li>
+        <UnorderedList className="ul-style">
+          <UnorderedListItem>
             <Paragraph>
               Onderhouden van de <strong>missie, visie, waarden, strategie, roadmap, branding en scope</strong> van het
               project
             </Paragraph>
-            <ul className="li-style">
-              <li>Verzamelen van geplande functies en presenteren in een uniforme weergave</li>
-              <li>Beheer van het merk Demodam</li>
-            </ul>
-          </li>
-          <li>
+            <UnorderedList className="UnorderedListItem-style">
+              <UnorderedListItem>
+                Verzamelen van geplande functies en presenteren in een uniforme weergave
+              </UnorderedListItem>
+              <UnorderedListItem>Beheer van het merk Demodam</UnorderedListItem>
+            </UnorderedList>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <Paragraph>
               <strong>Gemeenschaps- en bestuursaangelegenheden</strong>
             </Paragraph>
-            <ul className="li-style">
-              <li>Beheersrechten op Demodam-activa zoals databronnen</li>
-              <li>Beslissingen op codebase-niveau nemen</li>
-              <li>Verfijn de governance indien nodig</li>
-              <li>Beheer de toegang tot Demodam-middelen zoals hosting en projectkalenders</li>
-              <li>Omgaan met overtredingen van de gedragscode</li>
-              <li>Toezicht houden op wijzigingen in licenties en intellectueel eigendom</li>
-            </ul>
-          </li>
-          <li>
+            <UnorderedList className="li-style">
+              <UnorderedListItem>Beheersrechten op Demodam-activa zoals databronnen</UnorderedListItem>
+              <UnorderedListItem>Beslissingen op codebase-niveau nemen</UnorderedListItem>
+              <UnorderedListItem>Verfijn de governance indien nodig</UnorderedListItem>
+              <UnorderedListItem>
+                Beheer de toegang tot Demodam-middelen zoals hosting en projectkalenders
+              </UnorderedListItem>
+              <UnorderedListItem>Omgaan met overtredingen van de gedragscode</UnorderedListItem>
+              <UnorderedListItem>
+                Toezicht houden op wijzigingen in licenties en intellectueel eigendom
+              </UnorderedListItem>
+            </UnorderedList>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <Paragraph>
               <strong>Conflictoplossing</strong>
             </Paragraph>
-            <ul className="li-style">
-              <li>
+            <UnorderedList className="li-style">
+              <UnorderedListItem>
                 Dienen als <strong>escalatieniveau</strong> voor de actiegroepen
-              </li>
-              <li>Los geëscaleerde projectbeslissingen op wanneer een verantwoordelijk subteam is geblokkeerd</li>
-              <li>Problemen in ontwikkeling of conflicten tussen bijdragers oplossen</li>
-            </ul>
-          </li>
-          <li>
+              </UnorderedListItem>
+              <UnorderedListItem>
+                Los geëscaleerde projectbeslissingen op wanneer een verantwoordelijk subteam is geblokkeerd
+              </UnorderedListItem>
+              <UnorderedListItem>Problemen in ontwikkeling of conflicten tussen bijdragers oplossen</UnorderedListItem>
+            </UnorderedList>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <Paragraph>
               <strong>Technische zaken</strong>
             </Paragraph>
-            <ul className="li-style">
-              <li>
+            <UnorderedList className="li-style">
+              <UnorderedListItem>
                 Bepaal en beslis <strong>technische beperkingen en normen</strong> voor de Demodam-omgeving
-              </li>
-              <li>
+              </UnorderedListItem>
+              <UnorderedListItem>
                 Geef <strong>technische richting</strong> voor de codebase
-              </li>
-              <li>
+              </UnorderedListItem>
+              <UnorderedListItem>
                 Onderhoud een technische <strong>roadmap</strong>, een <strong>architectuur</strong> en{" "}
                 <strong>coderingsprincipes</strong>
-              </li>
-              <li>
+              </UnorderedListItem>
+              <UnorderedListItem>
                 Beheer en plan <strong>releases</strong>
-              </li>
-              <li>
+              </UnorderedListItem>
+              <UnorderedListItem>
                 Toezicht houden op de oplossing en openbaarmaking van <strong>beveiligingsproblemen</strong>
-              </li>
-            </ul>
-          </li>
-        </ul>
+              </UnorderedListItem>
+            </UnorderedList>
+          </UnorderedListItem>
+        </UnorderedList>
       </section>
       <section>
         <Heading3>Leden van het kernteam</Heading3>
         <Paragraph>De huidige leden van het kernteam zijn:</Paragraph>
-        <ul className="ul-style">
-          <li>
+        <UnorderedList className="ul-style">
+          <UnorderedListItem>
             <Link className="alignment-link" href="https://www.linkedin.com/in/edoplantinga/">
               Edo Plantinga
             </Link>{" "}
             (kernteamleider)
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <Link className="alignment-link" href="https://www.linkedin.com/in/rubenlinde">
               Ruben van der Linde
             </Link>{" "}
@@ -162,8 +177,8 @@ const GovernanceContent = () => {
               Technish actieteam
             </Link>{" "}
             leiden)
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <Link className="alignment-link" href="https://www.linkedin.com/in/albaroza">
               Alba Roza
             </Link>{" "}
@@ -172,25 +187,25 @@ const GovernanceContent = () => {
               Communicatie-actieteam
             </Link>{" "}
             leiden)
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <Link className="alignment-link" href="https://www.linkedin.com/in/joeribekker/">
               Joeri Bekker
             </Link>
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             <Link className="alignment-link" href="https://www.linkedin.com/in/lazobozarov/">
               Lazo Bozarof
             </Link>
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             Vacature:{" "}
             <Link className="alignment-link" href="../contributing">
               User Centricity
             </Link>{" "}
             teamleider
-          </li>
-        </ul>
+          </UnorderedListItem>
+        </UnorderedList>
       </section>
       <section>
         <Heading3>Manier van werken</Heading3>
