@@ -1,6 +1,4 @@
-import { Heading1, Paragraph } from "@utrecht/component-library-react";
-import { Heading2 } from "@utrecht/component-library-react";
-import { Heading3 } from "@utrecht/component-library-react";
+import { Heading1, Heading2, Heading3, Paragraph } from "@utrecht/component-library-react";
 import { Link } from "gatsby";
 import * as React from "react";
 import "/styles/alignment.css";
