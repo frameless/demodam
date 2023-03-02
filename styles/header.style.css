@@ -97,7 +97,8 @@
     transition: 0.3s;
   }
   .nav-item {
-    margin: 16px 0;
+    --utrecht-unordered-list-item-margin-block-end: 16px;
+    --utrecht-unordered-list-item-margin-block-start: 16px;
   }
   .headerList.active {
     left: 0%;
