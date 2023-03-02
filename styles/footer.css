@@ -13,13 +13,12 @@
   max-width: 992px;
 }
 
-ul {
+.main-footer ul {
   list-style: none;
 }
 
-li {
+.main-footer li {
   color: rgb(33, 33, 33);
   padding-bottom: 0.2rem;
   font-size: 16px;
-  font-weight: 900;
 }

@@ -79,6 +79,7 @@ const GovernanceContent = () => {
           </Link>
         </Paragraph>
       </section>
+      {/* kijken of rida dit goed na checkt moet je een bericht sturen van ik zie dit */}
       <section>
         <Heading2>Demodam kernteam</Heading2>
         <Paragraph>
@@ -95,7 +96,7 @@ const GovernanceContent = () => {
               Onderhouden van de <strong>missie, visie, waarden, strategie, roadmap, branding en scope</strong> van het
               project
             </Paragraph>
-            <UnorderedList className="UnorderedListItem-style">
+            <UnorderedList className="li-style">
               <UnorderedListItem>
                 Verzamelen van geplande functies en presenteren in een uniforme weergave
               </UnorderedListItem>
