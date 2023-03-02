@@ -1,4 +1,4 @@
-import { Heading1 } from "@utrecht/component-library-react";
+import { Heading1, UnorderedList, UnorderedListItem } from "@utrecht/component-library-react";
 import { Link } from "gatsby";
 import * as React from "react";
 import "/styles/contact.css";
@@ -8,8 +8,8 @@ const ContributionContent = () => {
   return (
     <div className="contact-container alignment">
       <Heading1>Kom in contact met de Demodam Community</Heading1>
-      <ul className="ul-list">
-        <li>
+      <UnorderedList className="ul-list">
+        <UnorderedListItem>
           Schrijf je in voor onze&nbsp;
           <Link
             className="contact-links"
@@ -17,8 +17,8 @@ const ContributionContent = () => {
           >
             maillijst{" "}
           </Link>
-        </li>
-        <li>
+        </UnorderedListItem>
+        <UnorderedListItem>
           Sluit je aan bij&nbsp;
           <Link
             className="contact-links"
@@ -27,20 +27,20 @@ const ContributionContent = () => {
             Common Ground op Slack{" "}
           </Link>
           en de Demodam kanalen.
-        </li>
+        </UnorderedListItem>
 
-        <li>
+        <UnorderedListItem>
           <Link className="contact-links" href="https://twitter.com/Demodam_cg">
             Twitter{" "}
           </Link>
-        </li>
+        </UnorderedListItem>
 
-        <li>
+        <UnorderedListItem>
           <Link className="contact-links" href="https://www.linkedin.com/company/demodam">
             LinkedIn{" "}
           </Link>
-        </li>
-      </ul>
+        </UnorderedListItem>
+      </UnorderedList>
     </div>
   );
 };
