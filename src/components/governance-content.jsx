@@ -23,7 +23,7 @@ const GovernanceContent = () => {
       </section>
       <section>
         <Heading2>Doelen van Demodam</Heading2>
-        <UnorderedList className="ul-style">
+        <UnorderedList>
           <UnorderedListItem>
             <strong>Laten zien.</strong> Demodam toont werkende digitale diensten die gemeenten (en mogelijk andere
             overheidsorganisaties) kunnen hergebruiken.
@@ -47,7 +47,7 @@ const GovernanceContent = () => {
       </section>
       <section>
         <Heading2>Demodam-principes</Heading2>
-        <UnorderedList className="ul-style">
+        <UnorderedList>
           <UnorderedListItem>
             Onze community is gastvrij en respectvol zoals vermeld in onze{" "}
             <Link className="alignment-link" href="https://demodam.org/CODE_OF_CONDUCT.md">
@@ -89,7 +89,7 @@ const GovernanceContent = () => {
           overeenstemming kunnen komen, wordt de betreffende vraag doorgestuurd naar de kernteamvergadering.
         </Paragraph>
         <Heading3>Gezamenlijke verantwoordelijkheden</Heading3>
-        <UnorderedList className="ul-style">
+        <UnorderedList>
           <UnorderedListItem>
             <Paragraph>
               Onderhouden van de <strong>missie, visie, waarden, strategie, roadmap, branding en scope</strong> van het
@@ -161,7 +161,7 @@ const GovernanceContent = () => {
       <section>
         <Heading3>Leden van het kernteam</Heading3>
         <Paragraph>De huidige leden van het kernteam zijn:</Paragraph>
-        <UnorderedList className="ul-style">
+        <UnorderedList>
           <UnorderedListItem>
             <Link className="alignment-link" href="https://www.linkedin.com/in/edoplantinga/">
               Edo Plantinga
