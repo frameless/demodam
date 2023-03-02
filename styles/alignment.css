@@ -11,6 +11,7 @@
   --utrecht-paragraph-font-family: "source Sans Pro", sans-serif;
   --utrecht-paragraph-line-height: 150%;
   --utrecht-paragraph-margin-block-end: 1rem;
+  --utrecht-unordered-list-padding-inline-start: 4rem;
   margin: 0 auto;
   padding: 0 3.5rem;
   width: 100%;
