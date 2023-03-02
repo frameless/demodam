@@ -1,7 +1,4 @@
-import { PageContent } from "@utrecht/component-library-react";
-import { Paragraph } from "@utrecht/component-library-react";
-import { Heading2 } from "@utrecht/component-library-react";
-import { Image } from "@utrecht/component-library-react";
+import { Heading2, Image, PageContent, Paragraph } from "@utrecht/component-library-react";
 import * as React from "react";
 import intergrationimage from "../images/integratie-signalen.svg";
 import persondataimage from "../images/person-data.svg";
@@ -13,7 +10,7 @@ import "/styles/alignment.css";
 const Content = () => (
   <PageContent className="content-container alignment">
     <section className="content-section">
-      <heading2 class="sr-only">Introductie</heading2>
+      <Heading2 class="sr-only">Introductie</Heading2>
       <Paragraph className="content-p utrecht-paragraph">
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten. Op Demodam.nl kun je straks zien welke Common Ground componenten (bouwstenen)
