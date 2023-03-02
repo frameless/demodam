@@ -1,4 +1,4 @@
-import { Heading1, Heading3 } from "@utrecht/component-library-react";
+import { Heading1, Heading3, Paragraph } from "@utrecht/component-library-react";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import "/styles/hero.css";
@@ -11,12 +11,12 @@ const Hero = () => {
         <br />
         <Heading3 className="heading3">Een digitale gemeente gebouwd op open source commonground componenten</Heading3>
         <br />
-        <p className="content-hero">
+        <Paragraph className="content-hero">
           Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
           beschikbaar zijn voor gemeenten.
-        </p>
+        </Paragraph>
         <br />
-        <p>
+        <Paragraph>
           <a
             aria-label="Link naar informatie voor demodam"
             href="https://commonground.nl/blog/view/6c422c0a-e541-41c8-8261-9c8bc90f4d87/doe-mee-met-demodam-de-common-ground-showcase-website"
@@ -24,16 +24,16 @@ const Hero = () => {
           >
             Lees hier meer over Demodam
           </a>
-        </p>
+        </Paragraph>
       </hgroup>
-      <p>
+      <Paragraph>
         <StaticImage
           className="imghero"
           src="../images/hero.png"
           alt="artistieke illustratie van vrouw die naar huizen en een boom kijkt"
           imgStyle={{ objectFit: "contain" }}
         />
-      </p>
+      </Paragraph>
     </div>
   );
 };

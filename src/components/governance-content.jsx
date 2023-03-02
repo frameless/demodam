@@ -1,4 +1,4 @@
-import { Heading1 } from "@utrecht/component-library-react";
+import { Heading1, Paragraph } from "@utrecht/component-library-react";
 import { Heading2 } from "@utrecht/component-library-react";
 import { Heading3 } from "@utrecht/component-library-react";
 import { Link } from "gatsby";
@@ -11,10 +11,10 @@ const GovernanceContent = () => {
     <div className="alignment">
       <section>
         <Heading1>CONCEPT: Governance voor Demodam</Heading1>
-        <p>
+        <Paragraph>
           Dit document is een conceptversie en hier kunnen geen rechten aan ontleend worden. De eerste versie van de
           governance wordt vastgesteld na de eerste keer dat het kernteam bijeen komt.
-        </p>
+        </Paragraph>
       </section>
       <section>
         <Heading2>Doelen van Demodam</Heading2>
@@ -61,44 +61,44 @@ const GovernanceContent = () => {
           </li>
           <li>Demodam is open source.</li>
         </ul>
-        <p>
+        <Paragraph>
           Door middel van codebase stewardship ondersteunt de Foundation for Public Code het kerteam en de community.
-        </p>
+        </Paragraph>
       </section>
       <section>
         <Heading2>Sluit je aan bij Demodam!</Heading2>
-        <p>
+        <Paragraph>
           Al overtuigd? Mooi! Ontdek{" "}
           <Link className="alignment-link" href="https://demodam.org/contributing">
             hoe je kunt deelnemen en bijdragen
           </Link>
-        </p>
+        </Paragraph>
       </section>
       <section>
         <Heading2>Demodam kernteam</Heading2>
-        <p>
+        <Paragraph>
           Het kernteam van Demodam <strong> houdt toezicht op de algehele richting </strong> van Demodam. Elk actief lid
           van de community kan een verzoek indienen om lid van het kernteam te worden door het kernteam hiernaar te
           vragen. Het kernteam stemt hierover (gewone meerderheid). De kernteam streeft ernaar een team te zijn waarin
           meerdere perspectieven (kennis, type organisaties) vertegenwoordigd zijn. Indien kernteam niet informeel tot
           overeenstemming kunnen komen, wordt de betreffende vraag doorgestuurd naar de kernteamvergadering.
-        </p>
+        </Paragraph>
         <Heading3>Gezamenlijke verantwoordelijkheden</Heading3>
         <ul className="ul-style">
           <li>
-            <p>
+            <Paragraph>
               Onderhouden van de <strong>missie, visie, waarden, strategie, roadmap, branding en scope</strong> van het
               project
-            </p>
+            </Paragraph>
             <ul className="li-style">
               <li>Verzamelen van geplande functies en presenteren in een uniforme weergave</li>
               <li>Beheer van het merk Demodam</li>
             </ul>
           </li>
           <li>
-            <p>
+            <Paragraph>
               <strong>Gemeenschaps- en bestuursaangelegenheden</strong>
-            </p>
+            </Paragraph>
             <ul className="li-style">
               <li>Beheersrechten op Demodam-activa zoals databronnen</li>
               <li>Beslissingen op codebase-niveau nemen</li>
@@ -109,9 +109,9 @@ const GovernanceContent = () => {
             </ul>
           </li>
           <li>
-            <p>
+            <Paragraph>
               <strong>Conflictoplossing</strong>
-            </p>
+            </Paragraph>
             <ul className="li-style">
               <li>
                 Dienen als <strong>escalatieniveau</strong> voor de actiegroepen
@@ -121,9 +121,9 @@ const GovernanceContent = () => {
             </ul>
           </li>
           <li>
-            <p>
+            <Paragraph>
               <strong>Technische zaken</strong>
-            </p>
+            </Paragraph>
             <ul className="li-style">
               <li>
                 Bepaal en beslis <strong>technische beperkingen en normen</strong> voor de Demodam-omgeving
@@ -147,7 +147,7 @@ const GovernanceContent = () => {
       </section>
       <section>
         <Heading3>Leden van het kernteam</Heading3>
-        <p>De huidige leden van het kernteam zijn:</p>
+        <Paragraph>De huidige leden van het kernteam zijn:</Paragraph>
         <ul className="ul-style">
           <li>
             <Link className="alignment-link" href="https://www.linkedin.com/in/edoplantinga/">
@@ -196,7 +196,7 @@ const GovernanceContent = () => {
       </section>
       <section>
         <Heading3>Manier van werken</Heading3>
-        <p>
+        <Paragraph>
           Het kernteam komt regelmatig bijeen. Hun agenda omvat een herziening van de technische roadmap en kwesties die
           in een impasse verkeren. Het is niet de bedoeling van de agenda om alle patches te herzien of goed te keuren.
           Dit gebeurt voornamelijk via het proces dat wordt beschreven in CONTRIBUTING.md. Vergaderingen en hun agenda
@@ -219,14 +219,14 @@ const GovernanceContent = () => {
             kernteam project board
           </Link>
           . Geen enkele persoon of organisatie zal een gewone meerderheid van het kernteam in dienst nemen.
-        </p>
+        </Paragraph>
       </section>
       <section>
         <Heading2>Actieteams</Heading2>
-        <p>
+        <Paragraph>
           De Demodam-codebase vormt actieteams om specifieke taken op te lossen. Deze kunnen dagelijkse beslissingen
           nemen om de zaken vooruit te helpen, maar kunnen beslissingen van het kernteam niet negeren.
-        </p>
+        </Paragraph>
       </section>
       <br />
     </div>

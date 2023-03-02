@@ -1,4 +1,4 @@
-import { Heading1 } from "@utrecht/component-library-react";
+import { Heading1, Paragraph } from "@utrecht/component-library-react";
 import { Link } from "gatsby";
 import * as React from "react";
 import "/styles/organisaties.css";
@@ -9,7 +9,7 @@ const OrganisatiesContent = () => {
     <div className="organisaties-container alignment">
       <section>
         <Heading1>[concept] Demodam Organisaties</Heading1>
-        <p>
+        <Paragraph>
           De volgende organisaties maken momenteel deel uit van het demodam-ecosysteem, als u zich wilt aansluiten bij
           het Demodam-ecosysteem, lees dan de&nbsp;
           <Link
@@ -18,7 +18,7 @@ const OrganisatiesContent = () => {
           >
             meedoen aan Demodam.{" "}
           </Link>
-        </p>
+        </Paragraph>
       </section>
 
       <section className="container-lower">
@@ -66,7 +66,7 @@ const OrganisatiesContent = () => {
           >
             VNG-Realisatie{" "}
           </Link>
-          <p>n.a.</p>
+          <Paragraph>n.a.</Paragraph>
           <Link
             className="contribute-link"
             href="https://join.slack.com/t/samenorganiseren/shared_invite/zt-dex1d7sk-wy11sKYWCF0qQYjJHSMW5Q"
@@ -119,21 +119,21 @@ const OrganisatiesContent = () => {
           >
             kadaster.demodam.nl{" "}
           </Link>
-          <p>n.a.</p>
+          <Paragraph>n.a.</Paragraph>
           <Link
             className="contribute-link"
             href="https://join.slack.com/t/samenorganiseren/shared_invite/zt-dex1d7sk-wy11sKYWCF0qQYjJHSMW5Q"
           >
             dimpact.demodam.nl{" "}
           </Link>
-          <p>n.a.</p>
-          <p>n.a.</p>
-          <p>n.a.</p>
-          <p>n.a.</p>
-          <p>n.a.</p>
-          <p>n.a.</p>
-          <p>n.a.</p>
-          <p>n.a.</p>
+          <Paragraph>n.a.</Paragraph>
+          <Paragraph>n.a.</Paragraph>
+          <Paragraph>n.a.</Paragraph>
+          <Paragraph>n.a.</Paragraph>
+          <Paragraph>n.a.</Paragraph>
+          <Paragraph>n.a.</Paragraph>
+          <Paragraph>n.a.</Paragraph>
+          <Paragraph>n.a.</Paragraph>
         </div>
       </section>
     </div>

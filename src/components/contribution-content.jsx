@@ -1,5 +1,6 @@
 import { Heading1 } from "@utrecht/component-library-react";
 import { Heading2 } from "@utrecht/component-library-react";
+import { Paragraph } from "@utrecht/component-library-react";
 import { Link } from "gatsby";
 import * as React from "react";
 import "/styles/alignment.css";
@@ -9,11 +10,11 @@ const ContributionContent = () => {
     <div className="alignment">
       <section className="contribute-section">
         <Heading1>CONTRIBUTING</Heading1>
-        <p>Zo kun je deelnemen aan Demodam.</p>
+        <Paragraph>Zo kun je deelnemen aan Demodam.</Paragraph>
       </section>
       <section className="contribute-section">
         <Heading2>Word lid van ons Slack-kanaal</Heading2>
-        <p>
+        <Paragraph>
           <Link
             className="alignment-link"
             href="https://join.slack.com/t/samenorganiseren/shared_invite/zt-dex1d7sk-wy11sKYWCF0qQYjJHSMW5Q"
@@ -21,21 +22,21 @@ const ContributionContent = () => {
             Word lid van de Common Ground Slack{" "}
           </Link>
           en sluit je aan bij de #Demodam-kanalen.
-        </p>
+        </Paragraph>
       </section>
       <section className="contribute-section">
         <Heading2>Doe mee aan een hackathon</Heading2>
-        <p>
+        <Paragraph>
           Tijdens{" "}
           <Link className="alignment-link" href="/hackatons">
             hackathons
           </Link>{" "}
           bouwen we samen verder aan Demodam volgens onze doelstellingen.
-        </p>
+        </Paragraph>
       </section>
       <section className="contribute-section">
         <Heading2>Wees actief op Github</Heading2>
-        <p>
+        <Paragraph>
           Schiet een issue of pull request in, enz. Bekijk de{" "}
           <Link
             className="alignment-link"
@@ -48,21 +49,23 @@ const ContributionContent = () => {
             issues met label good first issue
           </Link>{" "}
           om te beginnen.
-        </p>
+        </Paragraph>
       </section>
       <section className="contribute-section">
         <Heading2>Vertel het Verder!</Heading2>
-        <p>Voel je vrij om te bloggen, tweeten, posten over Demodam wanneer je maar wilt! We doen dit samen.</p>
+        <Paragraph>
+          Voel je vrij om te bloggen, tweeten, posten over Demodam wanneer je maar wilt! We doen dit samen.
+        </Paragraph>
       </section>
       <section className="contribute-section">
         <Heading2>Publiceer Common Ground-componenten op Demodam</Heading2>
-        <p>
+        <Paragraph>
           Demodam is een showcase-website voor open source-componenten. Volg deze{" "}
           <Link className="alignment-link" href="https://github.com/demodam/demodam.org/blob/main/src/pages/join.md">
             stappen om componeneen op demodam te publiceren
           </Link>
           . Dat kan tijdens een hackathon, maar ook daarbuiten.
-        </p>
+        </Paragraph>
       </section>
     </div>
   );
