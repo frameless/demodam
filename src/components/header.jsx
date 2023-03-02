@@ -1,4 +1,4 @@
-import { PageHeader } from "@utrecht/component-library-react";
+import { PageHeader, UnorderedList, UnorderedListItem } from "@utrecht/component-library-react";
 import clsx from "clsx";
 import { Link } from "gatsby";
 import * as React from "react";
@@ -14,7 +14,7 @@ const Header = () => {
     <PageHeader className="header alignment">
       {/* TODO: don't make thi a link on the homepage itself */}
       <div className="logo-button-head">
-        <Link to="/" aria-label="Homepage" class="headerLogo">
+        <Link to="/" aria-label="Homepage" className="headerLogo">
           <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
         </Link>
         <button
@@ -26,67 +26,71 @@ const Header = () => {
             setOpen(!open);
           }}
         >
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </button>
       </div>
-      <nav class={clsx("headerNav", open && "headerNav--expanded")} id="nav">
-        <ul
+      <nav className={clsx("headerNav", open && "headerNav--expanded")} id="nav">
+        <UnorderedList
           className={`headerList ${open ? "active" : ""}`}
           onClick={() => {
             setOpen(!open);
           }}
         >
-          <li class="nav-item">
-            <Link href="/" class="nav-link">
+          <UnorderedListItem className="nav-item">
+            <Link href="/" className="nav-link">
               Home
             </Link>
-          </li>
-          <li class="nav-item">
-            <Link href="/contributing" class="nav-link">
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
+            <Link href="/contributing" className="nav-link">
               Sluit je aan
             </Link>
-          </li>
-          <li class="nav-item">
-            <Link href="/hackatons" class="nav-link">
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
+            <Link href="/hackatons" className="nav-link">
               Hackatons
             </Link>
-          </li>
-          <li class="nav-item">
-            <Link href="/organisaties" class="nav-link">
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
+            <Link href="/organisaties" className="nav-link">
               Organisaties
             </Link>
-          </li>
-          <li class="nav-item">
-            <Link href="/governance" class="nav-link">
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
+            <Link href="/governance" className="nav-link">
               Governance
             </Link>
-          </li>
-          <li class="nav-item">
-            <Link href="/contact" class="nav-link">
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
+            <Link href="/contact" className="nav-link">
               Contact
             </Link>
-          </li>
-          <li class="nav-item">
-            <Link href="https://github.com/frameless/demodam" class="nav-link" aria-label="github">
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
+            <Link href="https://github.com/frameless/demodam" className="nav-link" aria-label="github">
               <Github></Github>
             </Link>
-            <Link href="https://samenorganiseren.slack.com/archives/C01S2QM81V4" class="nav-link" aria-label="Slack">
+            <Link
+              href="https://samenorganiseren.slack.com/archives/C01S2QM81V4"
+              className="nav-link"
+              aria-label="Slack"
+            >
               <Slack></Slack>
             </Link>
-          </li>
-          <li class="nav-item">
-            <Link href="#" class="nav-link" aria-label="verandert pagina naar nederlands" hrefLang="nl" lang="nl">
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
+            <Link href="#" className="nav-link" aria-label="verandert pagina naar nederlands" hrefLang="nl" lang="nl">
               NL
             </Link>
-          </li>
-          <li class="nav-item">
-            <Link href="#" class="nav-link" aria-label="changes page to english" hrefLang="en" lang="en">
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
+            <Link href="#" className="nav-link" aria-label="changes page to english" hrefLang="en" lang="en">
               EN
             </Link>
-          </li>
-        </ul>
+          </UnorderedListItem>
+        </UnorderedList>
       </nav>
     </PageHeader>
   );
