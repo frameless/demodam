@@ -1,3 +1,7 @@
 .li-style {
-  list-style: circle outside none;
+  list-style-type: circle;
+}
+
+.utrecht-unordered-list__item::marker {
+  content: initial;
 }
