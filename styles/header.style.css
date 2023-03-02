@@ -1,4 +1,6 @@
 .header {
+  --utrecht-unordered-list-item-margin-block-end: auto;
+  --utrecht-unordered-list-item-margin-block-start: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,8 +26,8 @@
   display: flex;
 }
 .nav-item {
+  list-style: none;
   display: inline-block;
-  margin: auto;
 }
 .nav-link {
   text-decoration: none;
