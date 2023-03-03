@@ -1,9 +1,5 @@
 import { Heading2, Image, PageContent, Paragraph } from "@utrecht/component-library-react";
 import * as React from "react";
-import intergrationimage from "../images/integratie-signalen.svg";
-import persondataimage from "../images/person-data.svg";
-import persondocumentimage from "../images/person-document.svg";
-import womanchecklistimage from "../images/women-checklist.svg";
 import "/styles/content.css";
 import "/styles/alignment.css";
 
@@ -58,7 +54,7 @@ const Content = () => (
         <Image
           className="utrecht-img--scale-down"
           alt="Illustratie van een laptop die een encrypte verificatie stuurd naar een telefoon en een website die de verificatie code vraagt met een vinkje"
-          src={intergrationimage}
+          src="/integratie-signalen.svg"
         />
       </div>
     </div>
@@ -79,7 +75,7 @@ const Content = () => (
           <Image
             className="utrecht-img--scale-down"
             alt="illustratie van een persoon die een checklijst afvinkt"
-            src={womanchecklistimage}
+            src="/women-checklist.svg"
           />
         </Paragraph>
       </div>
@@ -102,7 +98,7 @@ const Content = () => (
           <Image
             className="utrecht-img--scale-down"
             alt="illustratie van een persoon die een document bekijkt"
-            src={persondocumentimage}
+            src="/person-document.svg"
           />
         </Paragraph>
       </div>
@@ -124,7 +120,7 @@ const Content = () => (
           <Image
             className="utrecht-img--scale-down"
             alt="illustratie van persoon met scherm acht de persoon met data"
-            src={persondataimage}
+            src="/person-data.svg"
           />
         </Paragraph>
       </div>
