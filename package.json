@@ -12,8 +12,8 @@
     "lint-fix:prettier": "prettier --write .",
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "prepare": "husky install"
   },
