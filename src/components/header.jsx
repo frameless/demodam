@@ -5,8 +5,8 @@ import * as React from "react";
 import { useState } from "react";
 import "/styles/header.style.css";
 import "/styles/alignment.css";
-import DemodamLogo from "./demodamlogo.jsx";
-import { Github, Slack } from "./icons.jsx";
+import DemodamLogo from "../images/demodamlogo.jsx";
+import { Github, Slack } from "../images/icons.jsx";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
