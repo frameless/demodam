@@ -30,12 +30,12 @@
 }
 
 .imghero {
-  width: 400px !important;
-  height: 330px !important;
+  width: 400px;
+  height: 400px;
 }
 
 @media screen and (max-width: 720px) {
   .imghero {
-    display: none;
+    display: none !important;
   }
 }
