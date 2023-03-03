@@ -31,6 +31,7 @@ export const Head = () => (
   <>
     <html lang="nl" dir="ltr" />
     <meta charset="utf-8" />
-    <title>Contributing Page — Demodam</title>
+    <link id="icon" rel="icon" href="/demodamlogo.png" />
+    <title>Contributing | Demodam</title>
   </>
 );
