@@ -31,7 +31,7 @@
 
 .imghero {
   width: 400px !important;
-  height: 400px !important;
+  height: 330px !important;
 }
 
 @media screen and (max-width: 720px) {
