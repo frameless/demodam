@@ -1,4 +1,4 @@
-import { Heading1, Paragraph } from "@utrecht/component-library-react";
+import { Heading1, Paragraph, UnorderedList, UnorderedListItem } from "@utrecht/component-library-react";
 import { Link } from "gatsby";
 import * as React from "react";
 import "/styles/alignment.css";
@@ -20,8 +20,8 @@ const ContributionContent = () => {
       </section>
       <section className="hackatons-section">
         <Heading1>Vorige Demodam Hackathons</Heading1>
-        <ul>
-          <li>
+        <UnorderedList>
+          <UnorderedListItem>
             Demodam Hackathon I: 5-9 juli 2021{" "}
             <Link
               className="alignment-link"
@@ -30,8 +30,8 @@ const ContributionContent = () => {
               Informatie, programma and resultaten
             </Link>
             .
-          </li>
-          <li>
+          </UnorderedListItem>
+          <UnorderedListItem>
             Demodam Hackathon II: 1-5 november 2021{" "}
             <Link
               className="alignment-link"
@@ -40,8 +40,8 @@ const ContributionContent = () => {
               Informatie, programma and resultaten
             </Link>
             .
-          </li>
-        </ul>
+          </UnorderedListItem>
+        </UnorderedList>
       </section>
     </div>
   );
