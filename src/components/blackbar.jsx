@@ -1,4 +1,4 @@
-import { Image } from "@utrecht/component-library-react";
+import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import "/styles/blackbar.css";
 
@@ -8,7 +8,7 @@ const Blackbar = () => {
       <div className="blackbar-container">
         <div className="blackbar-image-block">
           <a href="https://conduction.nl/">
-            <Image
+            <StaticImage
               height={"100%"}
               width={150}
               className="blackbar-image"
@@ -18,7 +18,7 @@ const Blackbar = () => {
             />
           </a>
           <a href="https://www.maykinmedia.nl/nl/">
-            <Image
+            <StaticImage
               height={"100%"}
               width={150}
               className="blackbar-image"
@@ -28,7 +28,7 @@ const Blackbar = () => {
             />
           </a>
           <a href="https://www.dimpact.nl/">
-            <Image
+            <StaticImage
               height={"100%"}
               width={150}
               className="blackbar-image"
@@ -38,7 +38,7 @@ const Blackbar = () => {
             />
           </a>
           <a href="https://www.kadaster.nl/">
-            <Image
+            <StaticImage
               height={"100%"}
               width={150}
               className="blackbar-image"
@@ -48,7 +48,7 @@ const Blackbar = () => {
             />
           </a>
           <a href="https://publiccode.net/">
-            <Image
+            <StaticImage
               height={"100%"}
               width={150}
               className="blackbar-image"

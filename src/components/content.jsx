@@ -1,4 +1,5 @@
-import { Heading2, Image, PageContent, Paragraph } from "@utrecht/component-library-react";
+import { Heading2, PageContent, Paragraph } from "@utrecht/component-library-react";
+import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import "/styles/content.css";
 import "/styles/alignment.css";
@@ -51,7 +52,7 @@ const Content = () => (
         </Paragraph>
       </section>
       <div className="content-image-container">
-        <Image
+        <StaticImage
           className="utrecht-img--scale-down"
           alt="Illustratie van een laptop die een encrypte verificatie stuurd naar een telefoon en een website die de verificatie code vraagt met een vinkje"
           src="/integratie-signalen.svg"
@@ -72,7 +73,7 @@ const Content = () => (
       </section>
       <div className="content-image-container">
         <Paragraph>
-          <Image
+          <StaticImage
             className="utrecht-img--scale-down"
             alt="illustratie van een persoon die een checklijst afvinkt"
             src="/women-checklist.svg"
@@ -95,7 +96,7 @@ const Content = () => (
       </section>
       <div className="content-image-container">
         <Paragraph>
-          <Image
+          <StaticImage
             className="utrecht-img--scale-down"
             alt="illustratie van een persoon die een document bekijkt"
             src="/person-document.svg"
@@ -117,7 +118,7 @@ const Content = () => (
       </section>
       <div className="content-image-container">
         <Paragraph>
-          <Image
+          <StaticImage
             className="utrecht-img--scale-down"
             alt="illustratie van persoon met scherm acht de persoon met data"
             src="/person-data.svg"
