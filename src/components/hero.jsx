@@ -1,5 +1,4 @@
-import { Heading1, Heading3, Paragraph } from "@utrecht/component-library-react";
-import { StaticImage } from "gatsby-plugin-image";
+import { Heading1, Heading3, Image, Paragraph } from "@utrecht/component-library-react";
 import * as React from "react";
 import "/styles/hero.css";
 
@@ -27,11 +26,10 @@ const Hero = () => {
         </Paragraph>
       </hgroup>
       <Paragraph>
-        <StaticImage
+        <Image
           className="imghero"
-          src="../images/hero.png"
+          src="/hero.png"
           alt="artistieke illustratie van vrouw die naar huizen en een boom kijkt"
-          imgStyle={{ objectFit: "contain" }}
         />
       </Paragraph>
     </div>
