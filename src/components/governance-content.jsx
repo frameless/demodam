@@ -79,7 +79,6 @@ const GovernanceContent = () => {
           </Link>
         </Paragraph>
       </section>
-      {/* kijken of rida dit goed na checkt moet je een bericht sturen van ik zie dit */}
       <section>
         <Heading2>Demodam kernteam</Heading2>
         <Paragraph>
