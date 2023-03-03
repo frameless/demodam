@@ -1,7 +1,7 @@
 /* eslint-env node */
 
-import { Link } from "gatsby";
 import * as React from "react";
+import { Link } from "../components/link";
 
 const pageStyles = {
   color: "#232129",
@@ -40,7 +40,7 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link href="/">Go home</Link>.
       </p>
     </main>
   );

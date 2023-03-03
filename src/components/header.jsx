@@ -1,12 +1,12 @@
 import { PageHeader, UnorderedList, UnorderedListItem } from "@utrecht/component-library-react";
 import clsx from "clsx";
-import { Link } from "gatsby";
-import * as React from "react";
 import { useState } from "react";
-import "/styles/header.style.css";
-import "/styles/alignment.css";
+import React from "react";
 import DemodamLogo from "../images/demodamlogo.jsx";
 import { Github, Slack } from "../images/icons.jsx";
+import { Link } from "./link";
+import "/styles/header.style.css";
+import "/styles/alignment.css";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -14,7 +14,7 @@ const Header = () => {
     <PageHeader className="header alignment">
       {/* TODO: don't make thi a link on the homepage itself */}
       <div className="logo-button-head">
-        <Link to="/" aria-label="Homepage" className="headerLogo">
+        <Link href="/" aria-label="Homepage" className="headerLogo">
           <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
         </Link>
         <button

@@ -1,6 +1,6 @@
 import { Heading1, Heading2, Paragraph } from "@utrecht/component-library-react";
-import { Link } from "gatsby";
-import * as React from "react";
+import React from "react";
+import { Link } from "./link";
 import "/styles/alignment.css";
 
 const ContributionContent = () => {
