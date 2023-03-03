@@ -7,15 +7,15 @@ import Header from "../components/header.jsx";
 import Hero from "../components/hero.jsx";
 import Timeline from "../components/timeline.jsx";
 import "/styles/index.css";
-import "@utrecht/design-tokens/dist/index.css";
 import "@fontsource/source-sans-pro/400.css";
 import "@fontsource/source-sans-pro/400-italic.css";
 import "@fontsource/source-sans-pro/700.css";
 import "@fontsource/source-sans-pro/700-italic.css";
+import "../../build/css/index.css";
 
 const IndexPage = () => {
   return (
-    <>
+    <div className="utrecht-theme">
       <SkipLink href="#main">Naar de inhoud</SkipLink>
       <div className="page-container">
         <Header />
@@ -29,7 +29,7 @@ const IndexPage = () => {
         </div>
         <Footer />
       </div>
-    </>
+    </div>
   );
 };
 
