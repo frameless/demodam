@@ -7,5 +7,6 @@ module.exports = {
     title: `demodam2`,
     siteUrl: `https://www.yourdomain.tld`,
   },
+  pathPrefix: process.env.BASE_URL ?? "",
   plugins: [`gatsby-plugin-image`, `gatsby-plugin-sharp`, `gatsby-transformer-sharp`],
 };
