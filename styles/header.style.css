@@ -52,6 +52,8 @@
 
 @media (max-width: 820px) {
   .header {
+    --utrecht-unordered-list-item-margin-block-end: 16px;
+    --utrecht-unordered-list-item-margin-block-start: 16px;
     justify-content: space-between;
     width: 100%;
   }
