@@ -111,3 +111,6 @@ public
 
 #page data
 .page-data.json
+
+#style dictionary generated files
+build
