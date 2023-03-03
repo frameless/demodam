@@ -29,6 +29,7 @@ export const Head = () => (
   <>
     <html lang="nl" dir="ltr" />
     <meta charset="utf-8" />
-    <title>Hackatons Page — Demodam</title>
+    <link id="icon" rel="icon" href="/demodamlogo.png" />
+    <title>Hackatons | Demodam</title>
   </>
 );
