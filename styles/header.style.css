@@ -30,9 +30,9 @@
   display: inline-block;
 }
 .nav-link {
-  text-decoration: none;
+  --utrecht-link-color: black;
+  --utrecht-link-text-decoration: none;
   margin: 0.5rem;
-  color: black;
 }
 .nav-burger {
   display: none;
