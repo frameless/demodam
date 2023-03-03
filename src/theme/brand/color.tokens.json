@@ -1,0 +1,18 @@
+{
+  "demodam": {
+    "color": {
+      "white": {
+        "value": "#FFF"
+      },
+      "black": {
+        "value": "#000"
+      },
+      "blue": {
+        "value": "#0b71a1"
+      },
+      "yellow": {
+        "value": "#cbce1c"
+      }
+    }
+  }
+}
