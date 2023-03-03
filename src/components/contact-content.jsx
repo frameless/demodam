@@ -28,7 +28,6 @@ const ContributionContent = () => {
           </Link>
           en de Demodam kanalen.
         </UnorderedListItem>
-
         <UnorderedListItem>
           <Link className="contact-links" href="https://twitter.com/Demodam_cg">
             Twitter{" "}
