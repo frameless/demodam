@@ -55,7 +55,7 @@ const Content = () => (
         <StaticImage
           className="utrecht-img--scale-down"
           alt="Illustratie van een laptop die een encrypte verificatie stuurd naar een telefoon en een website die de verificatie code vraagt met een vinkje"
-          src="/integratie-signalen.svg"
+          src="../../static/integratie-signalen.svg"
         />
       </div>
     </div>
@@ -76,7 +76,7 @@ const Content = () => (
           <StaticImage
             className="utrecht-img--scale-down"
             alt="illustratie van een persoon die een checklijst afvinkt"
-            src="/women-checklist.svg"
+            src="../../static/women-checklist.svg"
           />
         </Paragraph>
       </div>
@@ -99,7 +99,7 @@ const Content = () => (
           <StaticImage
             className="utrecht-img--scale-down"
             alt="illustratie van een persoon die een document bekijkt"
-            src="/person-document.svg"
+            src="../../static/person-document.svg"
           />
         </Paragraph>
       </div>
@@ -121,7 +121,7 @@ const Content = () => (
           <StaticImage
             className="utrecht-img--scale-down"
             alt="illustratie van persoon met scherm acht de persoon met data"
-            src="/person-data.svg"
+            src="../../static/person-data.svg"
           />
         </Paragraph>
       </div>
