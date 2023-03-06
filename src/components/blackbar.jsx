@@ -13,7 +13,7 @@ const Blackbar = () => {
               width={150}
               className="blackbar-image"
               alt="bedrijfs logo van conduction."
-              src="/conduction.png"
+              src="../../static/conduction.png"
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
@@ -23,7 +23,7 @@ const Blackbar = () => {
               width={150}
               className="blackbar-image"
               alt="bedrijfs logo van maykin media."
-              src="/maykinmedia.png"
+              src="../../static/maykinmedia.png"
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
@@ -33,7 +33,7 @@ const Blackbar = () => {
               width={150}
               className="blackbar-image"
               alt="bedrijf logo dimpact."
-              src="/dimpact.png"
+              src="../../static/dimpact.png"
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
@@ -43,7 +43,7 @@ const Blackbar = () => {
               width={150}
               className="blackbar-image"
               alt="bedrijfs logo kadaster"
-              src="/kadaster.png"
+              src="../../static/kadaster.png"
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
@@ -53,7 +53,7 @@ const Blackbar = () => {
               width={150}
               className="blackbar-image"
               alt="bedrijfs logo van foundation for public code"
-              src="/foundation-for-public-code.png"
+              src="../../static/foundation-for-public-code.png"
               imgStyle={{ objectFit: "contain" }}
             />
           </a>
