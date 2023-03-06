@@ -28,8 +28,9 @@ const Hero = () => {
       </hgroup>
       <Paragraph>
         <StaticImage
+          objectFit="contain"
           className="imghero"
-          src="/hero.png"
+          src="../../static/hero.png"
           alt="artistieke illustratie van vrouw die naar huizen en een boom kijkt"
         />
       </Paragraph>
