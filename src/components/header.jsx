@@ -1,6 +1,6 @@
 import { PageHeader, UnorderedList, UnorderedListItem } from "@utrecht/component-library-react";
 import clsx from "clsx";
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import React from "react";
 import DemodamLogo from "../images/demodamlogo.jsx";
 import { Github, Slack } from "../images/icons.jsx";
@@ -10,9 +10,23 @@ import "/styles/alignment.css";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const toggle = () => setOpen(!open);
-  const hide = () => setOpen(false);
-  const show = () => setOpen(true);
+  const navRef = useRef();
+  const navButtonRef = useRef();
+  const handleFocus = useCallback((event) => {
+    const isInsideNav = navRef.current?.contains(event.target) || navButtonRef.current?.contains(event.target);
+    if (!isInsideNav) {
+      setOpen(false);
+    }
+  });
+  useEffect(() => {
+    navRef?.current.ownerDocument.addEventListener("focus", handleFocus, true);
+  });
+
+  const handleKeyDown = (evt) => {
+    if (evt.key === "Escape") {
+      setOpen(false);
+    }
+  };
 
   return (
     <PageHeader className="header alignment">
@@ -22,6 +36,7 @@ const Header = () => {
           <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
         </Link>
         <button
+          ref={navButtonRef}
           aria-label="collapse menu navigation"
           aria-expanded={open ? "true" : "false"}
           aria-controls="nav"
@@ -35,8 +50,18 @@ const Header = () => {
           <span className="bar"></span>
         </button>
       </div>
-      <nav focusIn={show} onFocus={hide} className={clsx("headerNav", open && "headerNav--expanded")} id="nav">
-        <UnorderedList className={`headerList ${open ? "active" : ""}`} onClick={toggle}>
+      <nav
+        className={clsx("headerNav", open && "headerNav--expanded")}
+        id="nav"
+        ref={navRef}
+        onKeyDownCapture={handleKeyDown}
+      >
+        <UnorderedList
+          className={`headerList ${open ? "active" : ""}`}
+          onClick={() => {
+            setOpen(!open);
+          }}
+        >
           <UnorderedListItem className="nav-item">
             <Link href="/" className="nav-link">
               Home
