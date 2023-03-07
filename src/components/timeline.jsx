@@ -1,4 +1,4 @@
-import { Heading1, Heading3, Paragraph } from "@utrecht/component-library-react";
+import { Heading1, Heading3, Link, Paragraph } from "@utrecht/component-library-react";
 import * as React from "react";
 import "/styles/timeline.css";
 
@@ -28,13 +28,13 @@ const Timeline = () => {
             </hgroup>
             <Paragraph>Samen werken aan een commonground etalage</Paragraph>
             <br />
-            <a
+            <Link
               href="https://www.meetup.com/nl-NL/Code-For-NL/events/278262253/"
               aria-label="Informatie en inschrijven voor 1ste demodam"
               style={{ color: "gray" }}
             >
               Informatie en inschrijven
-            </a>
+            </Link>
           </section>
         </div>
 
@@ -46,13 +46,13 @@ const Timeline = () => {
             </hgroup>
             <Paragraph>Onboarding en planning</Paragraph>
             <br />
-            <a
+            <Link
               href="https://www.meetup.com/nl-NL/Code-For-NL/events/278475015/"
               aria-label="Informatie en inschrijven voor 2de demodam"
               style={{ color: "gray" }}
             >
               Informatie en inschrijven
-            </a>
+            </Link>
           </section>
         </div>
 

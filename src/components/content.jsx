@@ -1,4 +1,4 @@
-import { Heading2, PageContent, Paragraph } from "@utrecht/component-library-react";
+import { Heading2, Link, PageContent, Paragraph } from "@utrecht/component-library-react";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import "/styles/content.css";
@@ -47,8 +47,8 @@ const Content = () => (
       <section className="content-isection">
         <Heading2>Op Demodam.nl laten we zien wat er beschikbaar is</Heading2>
         <Paragraph className="content-p utrecht-paragraph">
-          op <a href="#">Demodam.nl</a> kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het maakt
-          tastbaar wat je met Common Ground kunt.
+          op <Link href="#">Demodam.nl</Link> kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het
+          maakt tastbaar wat je met Common Ground kunt.
         </Paragraph>
       </section>
       <div className="content-image-container">

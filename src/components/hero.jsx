@@ -1,4 +1,4 @@
-import { Heading1, Heading3, Paragraph } from "@utrecht/component-library-react";
+import { Heading1, Heading3, Link, Paragraph } from "@utrecht/component-library-react";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import "/styles/hero.css";
@@ -17,13 +17,13 @@ const Hero = () => {
         </Paragraph>
         <br />
         <Paragraph>
-          <a
+          <Link
             aria-label="Link naar informatie voor demodam"
             href="https://commonground.nl/blog/view/6c422c0a-e541-41c8-8261-9c8bc90f4d87/doe-mee-met-demodam-de-common-ground-showcase-website"
             className="lowerlink"
           >
             Lees hier meer over Demodam
-          </a>
+          </Link>
         </Paragraph>
       </hgroup>
       <Paragraph>
