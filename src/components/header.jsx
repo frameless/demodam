@@ -23,10 +23,12 @@ const Header = () => {
         </Link>
         <button
           aria-label="collapse menu navigation"
-          aria-expanded={toggle}
+          aria-expanded={open ? "true" : "false"}
           aria-controls="nav"
           className={`nav-burger ${open ? "active" : ""}`}
-          onClick={toggle}
+          onClick={() => {
+            setOpen(!open);
+          }}
         >
           <span className="bar"></span>
           <span className="bar"></span>
