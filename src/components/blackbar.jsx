@@ -1,3 +1,4 @@
+import { Link } from "@utrecht/component-library-react";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import "/styles/blackbar.css";
@@ -7,7 +8,7 @@ const Blackbar = () => {
     <section className="blackbar-section">
       <div className="blackbar-container">
         <div className="blackbar-image-block">
-          <a href="https://conduction.nl/">
+          <Link href="https://conduction.nl/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -16,8 +17,8 @@ const Blackbar = () => {
               src="../../static/conduction.png"
               imgStyle={{ objectFit: "contain" }}
             />
-          </a>
-          <a href="https://www.maykinmedia.nl/nl/">
+          </Link>
+          <Link href="https://www.maykinmedia.nl/nl/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -26,8 +27,8 @@ const Blackbar = () => {
               src="../../static/maykinmedia.png"
               imgStyle={{ objectFit: "contain" }}
             />
-          </a>
-          <a href="https://www.dimpact.nl/">
+          </Link>
+          <Link href="https://www.dimpact.nl/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -36,8 +37,8 @@ const Blackbar = () => {
               src="../../static/dimpact.png"
               imgStyle={{ objectFit: "contain" }}
             />
-          </a>
-          <a href="https://www.kadaster.nl/">
+          </Link>
+          <Link href="https://www.kadaster.nl/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -46,8 +47,8 @@ const Blackbar = () => {
               src="../../static/kadaster.png"
               imgStyle={{ objectFit: "contain" }}
             />
-          </a>
-          <a href="https://publiccode.net/">
+          </Link>
+          <Link href="https://publiccode.net/">
             <StaticImage
               height={"100%"}
               width={150}
@@ -56,7 +57,7 @@ const Blackbar = () => {
               src="../../static/foundation-for-public-code.png"
               imgStyle={{ objectFit: "contain" }}
             />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
