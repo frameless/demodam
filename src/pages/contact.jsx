@@ -9,9 +9,7 @@ import "@utrecht/design-tokens/dist/index.css";
 const IndexPage = () => {
   return (
     <>
-      <SkipLink className="demodam-skiplink" href="#main">
-        Naar de inhoud
-      </SkipLink>
+      <SkipLink href="#main">Naar de inhoud</SkipLink>
       <div className="page-container">
         <Header />
         <div className="content-wrap">
@@ -28,9 +26,6 @@ export default IndexPage;
 
 export const Head = () => (
   <>
-    <html lang="nl" dir="ltr" />
-    <meta charset="utf-8" />
-    <link id="icon" rel="icon" href="/demodamlogo.png" />
     <title>Contact | Demodam</title>
   </>
 );
