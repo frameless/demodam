@@ -16,9 +16,7 @@ import "@fontsource/source-sans-pro/700-italic.css";
 const IndexPage = () => {
   return (
     <>
-      <SkipLink className="demodam-skiplink" href="#main">
-        Naar de inhoud
-      </SkipLink>
+      <SkipLink href="#main">Naar de inhoud</SkipLink>
       <div className="page-container">
         <Header />
         <Hero />
@@ -39,9 +37,6 @@ export default IndexPage;
 
 export const Head = () => (
   <>
-    <html lang="nl" dir="ltr" />
-    <meta charset="utf-8" />
-    <link id="icon" rel="icon" href="/demodamlogo.png" />
     <title>Home Page | Demodam</title>
   </>
 );

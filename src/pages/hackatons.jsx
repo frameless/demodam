@@ -9,9 +9,7 @@ import "@utrecht/design-tokens/dist/index.css";
 const Hackatons = () => {
   return (
     <>
-      <SkipLink className="demodam-skiplink" href="#main">
-        Naar de inhoud
-      </SkipLink>
+      <SkipLink href="#main">Naar de inhoud</SkipLink>
       <div className="page-container">
         <Header />
         <div className="content-wrap">
@@ -29,9 +27,6 @@ export default Hackatons;
 
 export const Head = () => (
   <>
-    <html lang="nl" dir="ltr" />
-    <meta charset="utf-8" />
-    <link id="icon" rel="icon" href="/demodamlogo.png" />
     <title>Hackatons | Demodam</title>
   </>
 );
