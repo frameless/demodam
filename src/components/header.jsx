@@ -10,34 +10,31 @@ import "/styles/alignment.css";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const toggle = () => setOpen(!open);
+  const hide = () => setOpen(false);
+  const show = () => setOpen(true);
+
   return (
     <PageHeader className="header alignment">
-      {/* TODO: don't make thi a link on the homepage itself */}
+      {/* TODO: don't make this a link on the homepage itself */}
       <div className="logo-button-head">
         <Link href="/" aria-label="Homepage" className="headerLogo">
           <DemodamLogo role="img" aria-label="Logo van Demodam"></DemodamLogo>
         </Link>
         <button
           aria-label="collapse menu navigation"
-          aria-expanded={open ? "true" : "false"}
+          aria-expanded={toggle}
           aria-controls="nav"
           className={`nav-burger ${open ? "active" : ""}`}
-          onClick={() => {
-            setOpen(!open);
-          }}
+          onClick={toggle}
         >
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </button>
       </div>
-      <nav className={clsx("headerNav", open && "headerNav--expanded")} id="nav">
-        <UnorderedList
-          className={`headerList ${open ? "active" : ""}`}
-          onClick={() => {
-            setOpen(!open);
-          }}
-        >
+      <nav focusIn={show} onFocus={hide} className={clsx("headerNav", open && "headerNav--expanded")} id="nav">
+        <UnorderedList className={`headerList ${open ? "active" : ""}`} onClick={toggle}>
           <UnorderedListItem className="nav-item">
             <Link href="/" className="nav-link">
               Home
