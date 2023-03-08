@@ -1,9 +1,11 @@
 {
   "utrecht": {
-    "heading-1": {
-      "color": {},
-      "font-family": {},
-      "font-size": { "value": "{demodam.typography.scale.44.font-size}" },
+    "heading-3": {
+      "color": {
+        "value": "{demodam.color.black}"
+      },
+      "font-family": { "value": "{demodam.typography.sans-serif.font-family}" },
+      "font-size": { "value": "{demodam.typography.scale.18.font-size}" },
       "font-weight": { "value": "{demodam.typography.weight-scale.bold.font-weight}" },
       "line-height": { "value": "{demodam.typography.line-height.h1}" },
       "margin-block-end": { "value": "16px" },

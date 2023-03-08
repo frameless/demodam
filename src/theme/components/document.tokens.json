@@ -1,0 +1,10 @@
+{
+  "utrecht": {
+    "document": {
+      "color": { "value": "{demodam.color.black}" },
+      "font-family": { "value": "{demodam.typography.sans-serif.font-family}" },
+      "font-size": { "value": "{demodam.typography.scale.16.font-size}" },
+      "line-height": { "value": "{demodam.typography.line-height.md}" }
+    }
+  }
+}

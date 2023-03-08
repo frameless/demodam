@@ -13,20 +13,21 @@
   font-weight: 700;
 }
 .heading3 {
-  color: rgb(0, 0, 0);
-  font-size: 24px;
-  font-style: italic;
-  line-height: 30px;
+  font-size: var(--demodam-typography-scale-24-font-size) !important;
+  font-style: var(--demodam-typography-font-style-italic);
+  line-height: var(--demodam-typography-line-height-30);
 }
 .content-hero {
-  color: rgb(0, 0, 0);
-  font-size: 18px;
-  line-height: 30px;
+  font-size: var(--demodam-typography-scale-18-font-size) !important;
+  line-height: var(--demodam-typography-line-height-30) !important;
 }
+
 .lowerlink {
   --utrecht-link-color: rgb(0, 0, 0);
   font-size: 18px;
   line-height: 30px;
+  text-decoration: none !important;
+  border-bottom: solid black 1px;
 }
 
 .imghero {

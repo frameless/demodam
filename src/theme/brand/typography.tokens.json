@@ -18,7 +18,8 @@
       },
       "font-style": {
         "normal": { "value": "normal" },
-        "inherit": { "value": "inherit" }
+        "inherit": { "value": "inherit" },
+        "italic": { "value": "italic" }
       },
       "letter-spacing": {
         "normal": { "value": "normal" },
@@ -30,7 +31,8 @@
         "xs": { "value": "1" },
         "sm": { "value": "1.25" },
         "md": { "value": "1.5" },
-        "h1": { "value": "125%" }
+        "h1": { "value": "125%" },
+        "30": { "value": "30px" }
       },
       "text-transform": {
         "uppercase": { "value": "uppercase" }
