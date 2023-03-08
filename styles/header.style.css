@@ -40,6 +40,12 @@
   background-color: transparent;
   border-width: 0;
 }
+.nav-burger:focus-visible {
+  box-shadow: 0 0 0px 2px white;
+  outline: 3px dotted black;
+  border-radius: 3px;
+}
+
 .bar {
   display: block;
   width: 25px;
