@@ -1,4 +1,4 @@
-import { Heading1, Heading3, Link, Paragraph } from "@utrecht/component-library-react";
+import { Heading1, Link, Paragraph } from "@utrecht/component-library-react";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import "/styles/hero.css";
@@ -8,14 +8,13 @@ const Hero = () => {
     <div className="hero-container">
       <hgroup className="container">
         <Heading1 className="heading1">Demodam</Heading1>
-        <br />
-        <Heading3 className="heading3">Een digitale gemeente gebouwd op open source commonground componenten</Heading3>
-        <br />
+        <Paragraph className="heading3">
+          Een digitale gemeente gebouwd op open source commonground componenten
+        </Paragraph>
         <Paragraph className="content-hero">
           Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
           beschikbaar zijn voor gemeenten.
         </Paragraph>
-        <br />
         <Paragraph>
           <Link
             aria-label="Link naar informatie voor demodam"

@@ -1,4 +1,4 @@
-import { SkipLink } from "@utrecht/component-library-react/dist/css-module";
+import { Document, SkipLink } from "@utrecht/component-library-react/dist/css-module";
 import * as React from "react";
 import Blackbar from "../components/blackbar.jsx";
 import Content from "../components/content.jsx";
@@ -15,7 +15,7 @@ import "../../build/css/index.css";
 
 const IndexPage = () => {
   return (
-    <div className="utrecht-theme">
+    <Document className="demodam-theme">
       <SkipLink href="#main">Naar de inhoud</SkipLink>
       <div className="page-container">
         <Header />
@@ -29,7 +29,7 @@ const IndexPage = () => {
         </div>
         <Footer />
       </div>
-    </div>
+    </Document>
   );
 };
 
