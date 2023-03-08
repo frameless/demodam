@@ -7,7 +7,11 @@
       "files": [
         {
           "destination": "css/index.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+            "selector": ".demodam-theme, .demodam-theme ::backdrop",
+            "outputReferences": true
+          }
         }
       ]
     }
