@@ -1,6 +1,7 @@
-import { Heading2, Link, PageContent, Paragraph } from "@utrecht/component-library-react";
+import { Heading2, PageContent, Paragraph } from "@utrecht/component-library-react";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
+import { Link } from "./link";
 import "/styles/content.css";
 import "/styles/alignment.css";
 
