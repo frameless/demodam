@@ -50,12 +50,7 @@ const Header = () => {
           <span className="bar"></span>
         </button>
       </div>
-      <nav
-        className={clsx("headerNav", open && "headerNav--expanded")}
-        id="nav"
-        ref={navRef}
-        onKeyDownCapture={handleKeyDown}
-      >
+      <nav className={clsx("headerNav")} id="nav" ref={navRef} onKeyDownCapture={handleKeyDown}>
         <UnorderedList
           className={`headerList ${open ? "active" : ""}`}
           onClick={() => {

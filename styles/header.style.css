@@ -70,9 +70,6 @@
   .headerNav {
     justify-content: space-around;
   }
-  .headerNav:not(.headerNav--expanded) {
-    display: none;
-  }
 
   .headerLogo {
     flex-grow: 1;
@@ -97,12 +94,15 @@
     position: fixed;
     visibility: hidden;
     left: -100%;
-    top: 7rem;
+    top: 6rem;
     flex-direction: column;
     background-color: rgb(215, 219, 0);
+    height: 100%;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    opacity: 0;
+    -webkit-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
   }
   .nav-item {
     --utrecht-unordered-list-item-margin-block-end: 16px;
@@ -111,5 +111,6 @@
   .headerList.active {
     left: 0%;
     visibility: visible;
+    opacity: 1;
   }
 }
