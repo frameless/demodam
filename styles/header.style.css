@@ -91,6 +91,7 @@
   }
 
   .headerList {
+    --utrecht-unordered-list-padding-inline-start: 0rem;
     position: fixed;
     visibility: hidden;
     left: -100%;
