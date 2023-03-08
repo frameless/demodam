@@ -24,7 +24,7 @@
   line-height: 30px;
 }
 .lowerlink {
-  color: rgb(0, 0, 0);
+  --utrecht-link-color: rgb(0, 0, 0);
   font-size: 18px;
   line-height: 30px;
 }
