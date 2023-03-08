@@ -31,7 +31,6 @@ const Timeline = () => {
             <Link
               href="https://www.meetup.com/nl-NL/Code-For-NL/events/278262253/"
               aria-label="Informatie en inschrijven voor 1ste demodam"
-              style={{ color: "gray" }}
             >
               Informatie en inschrijven
             </Link>
@@ -49,7 +48,6 @@ const Timeline = () => {
             <Link
               href="https://www.meetup.com/nl-NL/Code-For-NL/events/278475015/"
               aria-label="Informatie en inschrijven voor 2de demodam"
-              style={{ color: "gray" }}
             >
               Informatie en inschrijven
             </Link>

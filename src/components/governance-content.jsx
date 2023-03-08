@@ -30,11 +30,8 @@ const GovernanceContent = () => {
           </UnorderedListItem>
           <UnorderedListItem>
             <strong>Samenwerken.</strong> Op Demodam leren we hoe we samenwerken in het{" "}
-            <Link className="alignment-link" href="https://commonground.nl">
-              Common Ground{" "}
-            </Link>{" "}
-            ecosysteem. Dit gebeurt zowel op systeemniveau (hoe werken componenten op elkaar in?) als op menselijk
-            niveau (hoe werken we samen?).
+            <Link href="https://commonground.nl">Common Ground </Link> ecosysteem. Dit gebeurt zowel op systeemniveau
+            (hoe werken componenten op elkaar in?) als op menselijk niveau (hoe werken we samen?).
           </UnorderedListItem>
           <UnorderedListItem>
             <strong>Verbeteren</strong> Samen bepalen we wanneer een onderdeel productierijp is.
@@ -50,11 +47,8 @@ const GovernanceContent = () => {
         <UnorderedList>
           <UnorderedListItem>
             Onze community is gastvrij en respectvol zoals vermeld in onze{" "}
-            <Link className="alignment-link" href="https://demodam.org/CODE_OF_CONDUCT.md">
-              code of conduct.{" "}
-            </Link>{" "}
-            Als community willen we het nieuwe leden van de community gemakkelijk maken om deel te nemen, ongeacht
-            achtergrond en kennisniveau.
+            <Link href="https://demodam.org/CODE_OF_CONDUCT.md">code of conduct. </Link> Als community willen we het
+            nieuwe leden van de community gemakkelijk maken om deel te nemen, ongeacht achtergrond en kennisniveau.
           </UnorderedListItem>
           <UnorderedListItem>
             Wij zijn Transparant en toegankelijk. Wijzigingen in de Demodam-organisatie, Demodam-coderepositories en
@@ -74,9 +68,7 @@ const GovernanceContent = () => {
         <Heading2>Sluit je aan bij Demodam!</Heading2>
         <Paragraph>
           Al overtuigd? Mooi! Ontdek{" "}
-          <Link className="alignment-link" href="https://demodam.org/contributing">
-            hoe je kunt deelnemen en bijdragen
-          </Link>
+          <Link href="https://demodam.org/contributing">hoe je kunt deelnemen en bijdragen</Link>
         </Paragraph>
       </section>
       <section>
@@ -163,47 +155,24 @@ const GovernanceContent = () => {
         <Paragraph>De huidige leden van het kernteam zijn:</Paragraph>
         <UnorderedList>
           <UnorderedListItem>
-            <Link className="alignment-link" href="https://www.linkedin.com/in/edoplantinga/">
-              Edo Plantinga
-            </Link>{" "}
-            (kernteamleider)
+            <Link href="https://www.linkedin.com/in/edoplantinga/">Edo Plantinga</Link> (kernteamleider)
           </UnorderedListItem>
           <UnorderedListItem>
-            <Link className="alignment-link" href="https://www.linkedin.com/in/rubenlinde">
-              Ruben van der Linde
-            </Link>{" "}
-            (ook{" "}
-            <Link className="alignment-link" href="../contributing">
-              Technish actieteam
-            </Link>{" "}
-            leiden)
+            <Link href="https://www.linkedin.com/in/rubenlinde">Ruben van der Linde</Link> (ook{" "}
+            <Link href="../contributing">Technish actieteam</Link> leiden)
           </UnorderedListItem>
           <UnorderedListItem>
-            <Link className="alignment-link" href="https://www.linkedin.com/in/albaroza">
-              Alba Roza
-            </Link>{" "}
-            (ook{" "}
-            <Link className="alignment-link" href="../contributing">
-              Communicatie-actieteam
-            </Link>{" "}
-            leiden)
+            <Link href="https://www.linkedin.com/in/albaroza">Alba Roza</Link> (ook{" "}
+            <Link href="../contributing">Communicatie-actieteam</Link> leiden)
           </UnorderedListItem>
           <UnorderedListItem>
-            <Link className="alignment-link" href="https://www.linkedin.com/in/joeribekker/">
-              Joeri Bekker
-            </Link>
+            <Link href="https://www.linkedin.com/in/joeribekker/">Joeri Bekker</Link>
           </UnorderedListItem>
           <UnorderedListItem>
-            <Link className="alignment-link" href="https://www.linkedin.com/in/lazobozarov/">
-              Lazo Bozarof
-            </Link>
+            <Link href="https://www.linkedin.com/in/lazobozarov/">Lazo Bozarof</Link>
           </UnorderedListItem>
           <UnorderedListItem>
-            Vacature:{" "}
-            <Link className="alignment-link" href="../contributing">
-              User Centricity
-            </Link>{" "}
-            teamleider
+            Vacature: <Link href="../contributing">User Centricity</Link> teamleider
           </UnorderedListItem>
         </UnorderedList>
       </section>
@@ -220,11 +189,8 @@ const GovernanceContent = () => {
           >
             mailinglijst
           </Link>{" "}
-          en op{" "}
-          <Link className="alignment-link" href="https://samenorganiseren.slack.com/archives/C01S2QM81V4">
-            Slack.
-          </Link>{" "}
-          De actiepunten en agenda&apos;s van het kernteam zijn te vinden op het{" "}
+          en op <Link href="https://samenorganiseren.slack.com/archives/C01S2QM81V4">Slack.</Link> De actiepunten en
+          agenda&apos;s van het kernteam zijn te vinden op het{" "}
           <Link
             className="alignment-link"
             href="https://lists.publiccode.net/mailman/postorius/lists/demodam-discuss.lists.publiccode.net/"
