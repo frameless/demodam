@@ -69,7 +69,7 @@
   }
   .popup--open {
     position: fixed;
-    background-color: rgb(203, 206, 28);
+    --utrecht-page-header-background-color: rgb(203, 206, 28);
     margin: auto;
   }
 
