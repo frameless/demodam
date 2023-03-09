@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 1rem auto;
+  z-index: 2;
 }
 .logo-button-head {
   display: flex;
@@ -13,7 +14,6 @@
 }
 .headerNav {
   justify-content: center;
-  z-index: 2;
 }
 .headerNav:not([hidden]) {
   display: flex;
@@ -67,6 +67,12 @@
     justify-content: space-between;
     width: 100%;
   }
+  .popup--open {
+    position: fixed;
+    background-color: rgb(203, 206, 28);
+    margin: auto;
+  }
+
   .headerNav {
     justify-content: space-around;
   }
@@ -95,10 +101,9 @@
     position: fixed;
     visibility: hidden;
     left: -100%;
-    top: 6rem;
+    top: 4.7rem;
     flex-direction: column;
     background-color: rgb(215, 219, 0);
-    height: 100%;
     width: 100%;
     text-align: center;
     opacity: 0;

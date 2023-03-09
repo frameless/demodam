@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <PageHeader className="header alignment">
+    <PageHeader className={`header alignment ${open ? "popup--open" : ""}`}>
       {/* TODO: don't make this a link on the homepage itself */}
       <div className="logo-button-head">
         <Link href="/" aria-label="Homepage" className="headerLogo">
