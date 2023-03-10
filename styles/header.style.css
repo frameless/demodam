@@ -39,19 +39,10 @@
   font-weight: 600;
 }
 
-.nav-link::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 1px;
-  background: #000;
-  transition: width 0.3s;
+.nav-link:hover {
+  border-bottom: solid black 1px;
 }
 
-.nav-link:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
 .nav-burger {
   display: none;
   cursor: pointer;

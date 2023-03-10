@@ -87,10 +87,12 @@ const Header = () => {
               Contact
             </Link>
           </UnorderedListItem>
-          <UnorderedListItem className="nav-item">
+          <UnorderedListItem>
             <Link href="https://github.com/frameless/demodam" className="nav-link" aria-label="github">
               <Github></Github>
             </Link>
+          </UnorderedListItem>
+          <UnorderedListItem className="nav-item">
             <Link
               href="https://samenorganiseren.slack.com/archives/C01S2QM81V4"
               className="nav-link"
