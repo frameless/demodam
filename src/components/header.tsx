@@ -1,6 +1,6 @@
 import { PageHeader, UnorderedList, UnorderedListItem } from "@utrecht/component-library-react";
 import clsx from "clsx";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { KeyboardEvent, useCallback, useEffect, useRef, useState } from "react";
 import React from "react";
 import DemodamLogo from "../images/demodamlogo.jsx";
 import { Github, Slack } from "../images/icons.jsx";
@@ -10,19 +10,27 @@ import "/styles/alignment.css";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const navRef = useRef();
-  const navButtonRef = useRef();
-  const handleFocus = useCallback((event) => {
-    const isInsideNav = navRef.current?.contains(event.target) || navButtonRef.current?.contains(event.target);
-    if (!isInsideNav) {
-      setOpen(false);
-    }
-  });
-  useEffect(() => {
-    navRef?.current.ownerDocument.addEventListener("focus", handleFocus, true);
-  });
+  const navRef = useRef<HTMLElement>(null);
+  const navButtonRef = useRef<HTMLButtonElement>(null);
+  // TODO: Waar moet hij dan toch EventListener type vandaan halen?
+  // eslint-disable-next-line no-undef
+  const handleFocus = useCallback<EventListener>(
+    (event) => {
+      const isInsideNav =
+        navRef.current?.contains(event.target as Node) || navButtonRef.current?.contains(event.target as Node);
+      if (!isInsideNav) {
+        setOpen(false);
+      }
+    },
+    [navRef, navButtonRef]
+  );
 
-  const handleKeyDown = (evt) => {
+  useEffect(() => {
+    //TODO: Remove eventlistener if element is not rendered anymore
+    navRef.current?.ownerDocument.addEventListener("focus", handleFocus, true);
+  }, []);
+
+  const handleKeyDown = (evt: KeyboardEvent) => {
     if (evt.key === "Escape") {
       setOpen(false);
     }
