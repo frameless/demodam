@@ -5,6 +5,7 @@
   bottom: 0;
   width: 100%;
   --utrecht-link-text-decoration: none;
+  --utrecht-link-hover-color: var(--demodam-color-black);
   --utrecht-link-color: var(--demodam-color-black);
 }
 
