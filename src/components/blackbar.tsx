@@ -10,7 +10,6 @@ const Blackbar = () => {
         <div className="blackbar-image-block">
           <Link href="https://conduction.nl/">
             <StaticImage
-              height={"100%"}
               width={150}
               className="blackbar-image"
               alt="bedrijfs logo van conduction."
@@ -20,7 +19,6 @@ const Blackbar = () => {
           </Link>
           <Link href="https://www.maykinmedia.nl/nl/">
             <StaticImage
-              height={"100%"}
               width={150}
               className="blackbar-image"
               alt="bedrijfs logo van maykin media."
@@ -30,7 +28,6 @@ const Blackbar = () => {
           </Link>
           <Link href="https://www.dimpact.nl/">
             <StaticImage
-              height={"100%"}
               width={150}
               className="blackbar-image"
               alt="bedrijf logo dimpact."
@@ -40,7 +37,6 @@ const Blackbar = () => {
           </Link>
           <Link href="https://www.kadaster.nl/">
             <StaticImage
-              height={"100%"}
               width={150}
               className="blackbar-image"
               alt="bedrijfs logo kadaster"
@@ -50,7 +46,6 @@ const Blackbar = () => {
           </Link>
           <Link href="https://publiccode.net/">
             <StaticImage
-              height={"100%"}
               width={150}
               className="blackbar-image"
               alt="bedrijfs logo van foundation for public code"
