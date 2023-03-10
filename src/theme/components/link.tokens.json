@@ -2,10 +2,10 @@
   "utrecht": {
     "link": {
       "color": {
-        "value": "{demodam.color.black}"
+        "value": "{demodam.color.blue}"
       },
-      "text-decoration": {},
-      "text-decoration-color": {},
+      "text-decoration": { "value": "underline" },
+      "text-decoration-color": { "value": "{demodam.color.blue}" },
       "text-decoration-thickness": {},
       "text-underline-offset": {},
       "active": {
@@ -17,7 +17,7 @@
         "text-decoration-thickness": {}
       },
       "hover": {
-        "color": {},
+        "color": { "value": "{demodam.color.darkblue}" },
         "text-decoration": {},
         "text-decoration-thickness": {}
       },

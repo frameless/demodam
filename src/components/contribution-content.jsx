@@ -2,11 +2,12 @@ import { Heading1, Heading2, Paragraph } from "@utrecht/component-library-react"
 import React from "react";
 import { Link } from "./link";
 import "/styles/alignment.css";
+import "/styles/heading1size.css";
 
 const ContributionContent = () => {
   return (
     <div className="alignment">
-      <section className="contribute-section">
+      <section className="contribute-section heading1size">
         <Heading1>CONTRIBUTING</Heading1>
         <Paragraph>Zo kun je deelnemen aan Demodam.</Paragraph>
       </section>

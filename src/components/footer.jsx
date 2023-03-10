@@ -1,21 +1,31 @@
-import { UnorderedList, UnorderedListItem } from "@utrecht/component-library-react";
+import { Link, UnorderedList, UnorderedListItem } from "@utrecht/component-library-react";
 import * as React from "react";
 import "/styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="main-footer">
-      <div className="containerf">
-        <div className="row">
-          <UnorderedList className="list-unstyled">
-            <UnorderedListItem>Home</UnorderedListItem>
-            <UnorderedListItem>Sluit je aan</UnorderedListItem>
-            <UnorderedListItem>Hackathons</UnorderedListItem>
-            <UnorderedListItem>Organisaties</UnorderedListItem>
-            <UnorderedListItem>Governance</UnorderedListItem>
-            <UnorderedListItem>Contact</UnorderedListItem>
-          </UnorderedList>
-        </div>
+    <footer className="footer">
+      <div className="footer__container">
+        <UnorderedList className="list-unstyled">
+          <UnorderedListItem>
+            <Link href="/">Home</Link>
+          </UnorderedListItem>
+          <UnorderedListItem>
+            <Link href="/contributing">Sluit je aan</Link>
+          </UnorderedListItem>
+          <UnorderedListItem>
+            <Link href="/hackatons">Hackatons</Link>
+          </UnorderedListItem>
+          <UnorderedListItem>
+            <Link href="/organisaties">Organisaties</Link>
+          </UnorderedListItem>
+          <UnorderedListItem>
+            <Link href="/governance">Governance</Link>
+          </UnorderedListItem>
+          <UnorderedListItem>
+            <Link href="/contact">Contact</Link>
+          </UnorderedListItem>
+        </UnorderedList>
       </div>
     </footer>
   );
