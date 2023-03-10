@@ -14,7 +14,10 @@ const ContributionContent = () => {
       <section className="contribute-section">
         <Heading2>Word lid van ons Slack-kanaal</Heading2>
         <Paragraph>
-          <Link href="https://join.slack.com/t/samenorganiseren/shared_invite/zt-dex1d7sk-wy11sKYWCF0qQYjJHSMW5Q">
+          <Link
+            className="alignment-link"
+            href="https://join.slack.com/t/samenorganiseren/shared_invite/zt-dex1d7sk-wy11sKYWCF0qQYjJHSMW5Q"
+          >
             Word lid van de Common Ground Slack{" "}
           </Link>
           en sluit je aan bij de #Demodam-kanalen.
@@ -34,11 +37,14 @@ const ContributionContent = () => {
         <Heading2>Wees actief op Github</Heading2>
         <Paragraph>
           Schiet een issue of pull request in, enz. Bekijk de{" "}
-          <Link href="https://github.com/demodam/demodam.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22">
+          <Link
+            className="alignment-link"
+            href="https://github.com/demodam/demodam.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22"
+          >
             issues met label good first issue
           </Link>{" "}
           en de{" "}
-          <Link href="https://github.com/demodam/demodam.org/labels/good%20first%20issue">
+          <Link className="alignment-link" href="https://github.com/demodam/demodam.org/labels/good%20first%20issue">
             issues met label good first issue
           </Link>{" "}
           om te beginnen.
@@ -54,7 +60,7 @@ const ContributionContent = () => {
         <Heading2>Publiceer Common Ground-componenten op Demodam</Heading2>
         <Paragraph>
           Demodam is een showcase-website voor open source-componenten. Volg deze{" "}
-          <Link href="https://github.com/demodam/demodam.org/blob/main/src/pages/join.md">
+          <Link className="alignment-link" href="https://github.com/demodam/demodam.org/blob/main/src/pages/join.md">
             stappen om componeneen op demodam te publiceren
           </Link>
           . Dat kan tijdens een hackathon, maar ook daarbuiten.
