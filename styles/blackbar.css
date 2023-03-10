@@ -2,13 +2,13 @@
   background-color: black;
   overflow: auto;
 }
-.blackbar-container {
+.blackbar-section__logo-container {
   width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
   max-width: 992px;
 }
-.blackbar-image-block {
+.brand-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -16,7 +16,7 @@
   margin: 1.5rem 0;
 }
 
-.blackbar-image {
+.brand__logo {
   max-height: 45px;
   padding: 0.25rem;
 }

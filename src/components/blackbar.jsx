@@ -6,13 +6,13 @@ import "/styles/blackbar.css";
 const Blackbar = () => {
   return (
     <section className="blackbar-section">
-      <div className="blackbar-container">
-        <div className="blackbar-image-block">
-          <Link href="https://conduction.nl/">
+      <div className="blackbar-section__logo-container logo-container ">
+        <div className="brand-group">
+          <Link href="https://conduction.nl/" className="brand">
             <StaticImage
               height={"100%"}
               width={150}
-              className="blackbar-image"
+              className="brand__logo"
               alt="bedrijfs logo van conduction."
               src="../../static/conduction.png"
               imgStyle={{ objectFit: "contain" }}
@@ -22,7 +22,7 @@ const Blackbar = () => {
             <StaticImage
               height={"100%"}
               width={150}
-              className="blackbar-image"
+              className="blackbar-section__container__image-block__image"
               alt="bedrijfs logo van maykin media."
               src="../../static/maykinmedia.png"
               imgStyle={{ objectFit: "contain" }}
@@ -32,7 +32,7 @@ const Blackbar = () => {
             <StaticImage
               height={"100%"}
               width={150}
-              className="blackbar-image"
+              className="blackbar-section__container__image-block__image"
               alt="bedrijf logo dimpact."
               src="../../static/dimpact.png"
               imgStyle={{ objectFit: "contain" }}
@@ -42,7 +42,7 @@ const Blackbar = () => {
             <StaticImage
               height={"100%"}
               width={150}
-              className="blackbar-image"
+              className="blackbar-section__container__image-block__image"
               alt="bedrijfs logo kadaster"
               src="../../static/kadaster.png"
               imgStyle={{ objectFit: "contain" }}
@@ -52,7 +52,7 @@ const Blackbar = () => {
             <StaticImage
               height={"100%"}
               width={150}
-              className="blackbar-image"
+              className="blackbar-section__container__image-block__image"
               alt="bedrijfs logo van foundation for public code"
               src="../../static/foundation-for-public-code.png"
               imgStyle={{ objectFit: "contain" }}

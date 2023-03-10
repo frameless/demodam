@@ -12,7 +12,12 @@
         "padding-inline-start": {}
       },
       "marker": {
-        "color": {}
+        "color": {
+          "value": "{demodam.color.blue}"
+        },
+        "content": {
+          "value": ""
+        }
       }
     }
   }
