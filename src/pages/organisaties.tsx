@@ -1,8 +1,8 @@
 import { SkipLink } from "@utrecht/component-library-react/dist/css-module";
 import * as React from "react";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/footer";
 import Header from "../components/header";
-import Content from "../components/organisaties-content.jsx";
+import Content from "../components/organisaties-content";
 import "/styles/index.css";
 import "@utrecht/design-tokens/dist/index.css";
 
