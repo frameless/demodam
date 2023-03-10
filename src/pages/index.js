@@ -3,7 +3,7 @@ import * as React from "react";
 import Blackbar from "../components/blackbar.jsx";
 import Content from "../components/content.jsx";
 import Footer from "../components/footer.jsx";
-import Header from "../components/header.jsx";
+import Header from "../components/header";
 import Hero from "../components/hero.jsx";
 import Timeline from "../components/timeline.jsx";
 import "/styles/index.css";
