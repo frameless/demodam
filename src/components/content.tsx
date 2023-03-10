@@ -8,7 +8,7 @@ import "/styles/alignment.css";
 const Content = () => (
   <PageContent className="content-container alignment">
     <section className="content-section">
-      <Heading2 class="sr-only">Introductie</Heading2>
+      <Heading2 className="sr-only">Introductie</Heading2>
       <Paragraph className="content-p utrecht-paragraph">
         Demodam is een fictieve gemeentewebsite die laat zien welke herbruikbare open source producten en diensten er
         beschikbaar zijn voor gemeenten. Op Demodam.nl kun je straks zien welke Common Ground componenten (bouwstenen)
@@ -38,18 +38,22 @@ const Content = () => (
           height="100%"
           src="https://www.youtube-nocookie.com/embed/jTK-sbee2qM"
           title="Demodam kickoff op YouTube"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
-        <figcaption class="sr-only">Opname Kickoff 31 mei 2021</figcaption>
+        <figcaption className="sr-only">Opname Kickoff 31 mei 2021</figcaption>
       </figure>
     </div>
     <div className="content-iblock">
       <section className="content-isection">
         <Heading2>Op Demodam.nl laten we zien wat er beschikbaar is</Heading2>
         <Paragraph className="content-p utrecht-paragraph">
-          op <Link href="#">Demodam.nl</Link> kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het
-          maakt tastbaar wat je met Common Ground kunt.
+          op{" "}
+          <Link href="#" className="content-link">
+            Demodam.nl
+          </Link>{" "}
+          kun je zien hoe digitale diensten werken voor burgers en ambtenaren. Het maakt tastbaar wat je met Common
+          Ground kunt.
         </Paragraph>
       </section>
       <div className="content-image-container">
