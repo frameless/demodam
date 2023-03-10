@@ -10,10 +10,11 @@ import React from "react";
 import { Link } from "./link";
 import "/styles/alignment.css";
 import "/styles/governance.css";
+import "/styles/heading1size.css";
 
 const GovernanceContent = () => {
   return (
-    <div className="alignment">
+    <div className="alignment heading1size">
       <section>
         <Heading1>CONCEPT: Governance voor Demodam</Heading1>
         <Paragraph>

@@ -58,32 +58,32 @@ const Header = () => {
           }}
         >
           <UnorderedListItem className="nav-item">
-            <Link href="/" className="nav-link">
+            <Link href="/" className="nav-link" activeClassName="nav-link--active">
               Home
             </Link>
           </UnorderedListItem>
           <UnorderedListItem className="nav-item">
-            <Link href="/contributing" className="nav-link">
+            <Link href="/contributing" className="nav-link" activeClassName="nav-link--active">
               Sluit je aan
             </Link>
           </UnorderedListItem>
           <UnorderedListItem className="nav-item">
-            <Link href="/hackatons" className="nav-link">
+            <Link href="/hackatons" className="nav-link" activeClassName="nav-link--active">
               Hackatons
             </Link>
           </UnorderedListItem>
           <UnorderedListItem className="nav-item">
-            <Link href="/organisaties" className="nav-link">
+            <Link href="/organisaties" className="nav-link" activeClassName="nav-link--active">
               Organisaties
             </Link>
           </UnorderedListItem>
           <UnorderedListItem className="nav-item">
-            <Link href="/governance" className="nav-link">
+            <Link href="/governance" className="nav-link" activeClassName="nav-link--active">
               Governance
             </Link>
           </UnorderedListItem>
           <UnorderedListItem className="nav-item">
-            <Link href="/contact" className="nav-link">
+            <Link href="/contact" className="nav-link" activeClassName="nav-link--active">
               Contact
             </Link>
           </UnorderedListItem>

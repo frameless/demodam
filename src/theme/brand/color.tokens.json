@@ -12,6 +12,9 @@
       },
       "yellow": {
         "value": "#cbce1c"
+      },
+      "darkblue": {
+        "value": "#005282"
       }
     }
   }

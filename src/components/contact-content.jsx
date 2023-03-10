@@ -3,10 +3,11 @@ import React from "react";
 import { Link } from "./link";
 import "/styles/contact.css";
 import "/styles/alignment.css";
+import "/styles/heading1size.css";
 
 const ContributionContent = () => {
   return (
-    <div className="contact-container alignment">
+    <div className="contact-container alignment heading1size">
       <Heading1>Kom in contact met de Demodam Community</Heading1>
       <UnorderedList className="ul-list">
         <UnorderedListItem>

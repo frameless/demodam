@@ -1,12 +1,13 @@
-import { Heading1, Paragraph } from "@utrecht/component-library-react";
+import { Heading1, Heading3, Paragraph } from "@utrecht/component-library-react";
 import React from "react";
 import { Link } from "./link";
 import "/styles/organisaties.css";
 import "/styles/alignment.css";
+import "/styles/heading1size.css";
 
 const OrganisatiesContent = () => {
   return (
-    <div className="organisaties-container alignment">
+    <div className="organisaties-container alignment heading1size">
       <section>
         <Heading1>[concept] Demodam Organisaties</Heading1>
         <Paragraph>
@@ -22,8 +23,8 @@ const OrganisatiesContent = () => {
       </section>
 
       <section className="container-lower">
-        <div className="table-content-organisatie">
-          <Heading1>Organisatie</Heading1>
+        <div className="table-content-organisatie heading1size">
+          <Heading3>Organisatie</Heading3>
           <Link
             className="contribute-link"
             href="https://join.slack.com/t/samenorganiseren/shared_invite/zt-dex1d7sk-wy11sKYWCF0qQYjJHSMW5Q"
@@ -100,7 +101,7 @@ const OrganisatiesContent = () => {
         </div>
 
         <div className="table-content-showcase">
-          <Heading1>Showcasesite</Heading1>
+          <Heading3>Showcasesite</Heading3>
           <Link
             className="contribute-link"
             href="https://join.slack.com/t/samenorganiseren/shared_invite/zt-dex1d7sk-wy11sKYWCF0qQYjJHSMW5Q"

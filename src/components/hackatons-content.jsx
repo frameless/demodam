@@ -2,11 +2,12 @@ import { Heading1, Paragraph, UnorderedList, UnorderedListItem } from "@utrecht/
 import React from "react";
 import { Link } from "./link";
 import "/styles/alignment.css";
+import "/styles/heading1size.css";
 
 const ContributionContent = () => {
   return (
     <div className="alignment">
-      <section className="hackatons-section">
+      <section className="hackatons-section heading1size">
         <Heading1>Demodam Hackathon III: 20-24 juni 2022</Heading1>
         <Paragraph>
           Demodam Hackathon III vindt plaats tijdens de Week van de (Digitale) Dienstverlening. Doe ook mee!{" "}
@@ -18,7 +19,7 @@ const ContributionContent = () => {
           .
         </Paragraph>
       </section>
-      <section className="hackatons-section">
+      <section className="hackatons-section heading1size">
         <Heading1>Vorige Demodam Hackathons</Heading1>
         <UnorderedList>
           <UnorderedListItem>

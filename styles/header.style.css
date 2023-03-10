@@ -30,9 +30,27 @@
   display: inline-block;
 }
 .nav-link {
-  --utrecht-link-color: black;
-  --utrecht-link-text-decoration: none;
   margin: 0.5rem;
+  --utrecht-link-text-decoration: none;
+  --utrecht-link-hover-color: var(--demodam-color-black);
+  --utrecht-link-color: var(--demodam-color-black);
+}
+.nav-link--active {
+  font-weight: 600;
+}
+
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #000;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
 }
 .nav-burger {
   display: none;
