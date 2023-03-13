@@ -1,34 +1,44 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { Link as DesignSystemLink } from "@utrecht/component-library-react/dist/css-module";
 import clsx from "clsx";
 import { Link as GatsbyLink, GatsbyLinkProps } from "gatsby";
 import isAbsoluteUrl from "is-absolute-url";
 import React from "react";
-import "@utrecht/component-library-react/dist/css-module";
 
-interface CustomLinkProps extends Omit<GatsbyLinkProps<any>, "to"> {
+interface CustomLinkProps<T> extends Omit<GatsbyLinkProps<T>, "placeholder" | "ref" | "to"> {
   href: string;
 }
 
-export const Link = ({ className, href, children, ref, ...restProps }: CustomLinkProps) => {
+/**
+ * TypeScript made it challenging to support features from both GatsbyLink and the Utrecht link.
+ * Currently `placeholder` from UtrechtLink and `ref` from `GatsbyLink` are not supported.
+ * Unlike Gatsby, you must use `href` instead of `to` for internal links too. Internal links must be relative URLs.
+ */
+export const Link = <T,>({
+  className,
+  href,
+  children,
+  activeClassName,
+  activeStyle,
+  partiallyActive,
+  replace,
+  state,
+  ...restProps
+}: CustomLinkProps<T>) => {
   const external = typeof href === "string" && isAbsoluteUrl(href);
+  const gatsbyLinkProps = { activeClassName, activeStyle, partiallyActive, replace, state };
 
-  if (external) {
+  if (external || !href) {
     return (
-      <a className={clsx("utrecht-link", className)} href={href} {...restProps}>
+      <DesignSystemLink href={href} external={external} {...restProps}>
         {children}
-      </a>
+      </DesignSystemLink>
+    );
+  } else {
+    return (
+      <GatsbyLink to={href} className={clsx("utrecht-link", className)} {...gatsbyLinkProps} {...restProps}>
+        {children}
+      </GatsbyLink>
     );
   }
-
-  return (
-    <GatsbyLink
-      to={href}
-      className={clsx("utrecht-link", className)}
-      ref={ref as any}
-      {...restProps}
-      rel={external ? "external noopener noreferrer" : undefined}
-    >
-      {children}
-    </GatsbyLink>
-  );
 };
