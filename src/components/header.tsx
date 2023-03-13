@@ -94,7 +94,7 @@ const Header = () => {
               Contact
             </Link>
           </UnorderedListItem>
-          <UnorderedListItem>
+          <UnorderedListItem className="nav-item">
             <Link href="https://github.com/frameless/demodam" className="nav-link" aria-label="github">
               <Github></Github>
             </Link>
